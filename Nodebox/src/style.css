@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  /* background-color: orange; */
+}
+
+.App {
+  width: 89%;
+  max-width: 89%;
+  padding-top: 6vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.Grid-1 {
+  padding-bottom: 4vh;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+}
+
+.pagination {
+  margin-left: 58%;
+}
+
+.movie-box {
+  width: 98%;
+  max-width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-div {
+  height: 90vh;
+  width: 45%;
+  max-width: 45%;
+  background-color: brown;
+}
+
+.custom-div:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4)
+  );
+}
+
+.tittle-div {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  margin-top: 34vh;
+}
+
+.T-div {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
+  color: blue;
+  font-weight: 600;
+}
+
+.M-tittle {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.M-tittle:hover {
+  transition: 0.5s ease-in-out;
+  color: blue;
+  cursor: pointer;
+}
+
+.paragraph {
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.blog-entry {
+  border-top: 1px solid #f5ebeb;
+  padding-top: 1.7vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.msg {
+  display: flex;
+  text-align: center;
+}
+
+.CommentIcon {
+  color: gray;
+  font-size: 12px;
+}
+
+.cf {
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
+}
+
+.Grid-2 {
+  height: 90vh;
+  width: 100%;
+  max-width: 100%;
+}
+
+.searchbar {
+  width: 85%;
+  max-width: 85%;
+  margin-left: 15%;
+}
+
+.S-button {
+  padding: 2vh;
+  width: 100%;
+  border: 1px solid orange;
+  margin-bottom: 7vh;
+}
+
+.h4 {
+  font-size: 12px;
+  font-weight: 100;
+  width: 100%;
+  padding: 1vh;
+  margin-bottom: 4vh;
+  border-left: 4px solid #0099ff; /* Blue left border */
+  padding-left: 8px; /* Space between text and border */
+}
+
+.p-tag {
+  font-weight: 0px;
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 8vh;
+}
+
+.click {
+  border: none;
+  background-color: transparent;
+}
+
+/* Add a minimum width to prevent shrinking */
+.custom-div,
+.tittle-div,
+.Grid-2 {
+  min-width: 300px; /* Adjust this value as needed */
+}
+
+/* Media Query Adjustments */
+/* For screens between 1024px and 958px */
+@media screen and (max-width: 1024px) and (min-width: 959px) {
+  .App {
+    display: block;
+  }
+  .CommentIcon {
+    font-size: 18px;
+  }
+  .searchbar {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0%;
+  }
+}
+
+/* For screens between 958px and 768px */
+@media screen and (max-width: 958px) and (min-width: 769px) {
+  .App {
+    display: block;
+  }
+
+  .CommentIcon {
+    font-size: 18px;
+  }
+  .searchbar {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .App {
+    display: block;
+  }
+  .movie-box {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tittle-div {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2vh;
+    min-width: 300px;
+  }
+
+  .custom-div {
+    width: 100%;
+    max-width: 100%;
+    min-width: 300px;
+  }
+
+  .Grid-2 {
+    width: 100%;
+    max-width: 100%;
+    min-width: 300px;
+  }
+
+  .pagination {
+    margin-left: 40%;
+  }
+
+  .CommentIcon {
+    font-size: 18px;
+  }
+  .searchbar {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0%;
+  }
+}
