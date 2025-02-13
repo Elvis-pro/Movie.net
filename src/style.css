@@ -6,7 +6,6 @@
 }
 
 body {
-  /* background-color: orange; */
 }
 
 .App {
@@ -44,11 +43,11 @@ body {
 }
 
 .custom-div:hover {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.4)
-  );
+  ); */
 }
 
 .tittle-div {
@@ -154,6 +153,31 @@ body {
   background-color: transparent;
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
+  );
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+}
+
+.scroll-to-top.visible {
+  display: block;
+}
+
+.scroll-to-top:hover {
+  background: #0056b3;
+}
+
 /* Add a minimum width to prevent shrinking */
 .custom-div,
 .tittle-div,
@@ -175,6 +199,13 @@ body {
     max-width: 100%;
     margin-left: 0%;
   }
+  .scroll-to-top:hover {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
+  }
 }
 
 /* For screens between 958px and 768px */
@@ -190,6 +221,13 @@ body {
     width: 100%;
     max-width: 100%;
     margin-left: 0%;
+  }
+  .scroll-to-top:hover {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
   }
 }
 
@@ -233,5 +271,30 @@ body {
     width: 100%;
     max-width: 100%;
     margin-left: 0%;
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 1px;
+    right: 0px;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
+    color: white;
+    border: none;
+    padding: 1px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+  }
+
+  .scroll-to-top:hover {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
   }
 }

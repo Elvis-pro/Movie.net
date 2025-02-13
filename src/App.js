@@ -3,6 +3,7 @@ import MovieDivs from "./blogPost"; // Your movie component
 import Pagination from "@mui/material/Pagination";
 import movies from "./movieData"; // Import the static movie data
 import Search from "./Search_section";
+import ScrollToTop from "./scrollto";
 import "./style.css";
 
 export default function App() {
@@ -39,6 +40,9 @@ export default function App() {
       <div className="Grid-2">
         <Search />
       </div>
+
+      {/* <div className="scroll"></div> */}
+      <ScrollToTop />
     </div>
   );
 }
