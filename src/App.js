@@ -39,10 +39,12 @@ export default function App() {
           />
         </div>
 
-      {/* Second Grid */}
-      <div className="Grid-2">
-        <Search />
+        {/* Second Grid */}
+        <div className="Grid-2">
+          <Search />
+        </div>
+        <ScrollToTop />
       </div>
-    </div>
+    </>
   );
 }
