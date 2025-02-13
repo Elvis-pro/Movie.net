@@ -6,6 +6,7 @@ import Search from "./Search_section";
 import ScrollToTop from "./scrollto";
 import "./style.css";
 import NavBar from "./components/NavBar";
+import LandingPage from "./LandingPage.jsx";
 
 export default function App() {
   const [page, setPage] = useState(1);
@@ -19,6 +20,7 @@ export default function App() {
     <>
       <NavBar />
       <div className="App">
+        <LandingPage />
         <div className="Grid-1">
           {displayedMovies.map((movie) => (
             <MovieDivs
@@ -44,5 +46,6 @@ export default function App() {
         <Search />
       </div>
     </div>
+  </>  
   );
 }
