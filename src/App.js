@@ -3,7 +3,7 @@ import MovieDivs from "./blogPost"; // Your movie component
 import Pagination from "@mui/material/Pagination";
 import movies from "./movieData"; // Import the static movie data
 import Search from "./Search_section";
-import "./styles.css";
+import "./style.css";
 
 export default function App() {
   const [page, setPage] = useState(1);
