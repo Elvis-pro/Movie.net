@@ -6,7 +6,7 @@ import Search from "./Search_section";
 import ScrollToTop from "./scrollto";
 import "./style.css";
 import NavBar from "./components/NavBar";
-
+import LandingPage from "landingpage.jsx";
 export default function App() {
   const [page, setPage] = useState(1);
   const moviesPerPage = 5; // Change this to control movies per page
@@ -18,6 +18,7 @@ export default function App() {
   return (
     <>
       <NavBar />
+      <LandingPage />
       <div className="App">
         <div className="Grid-1">
           {displayedMovies.map((movie) => (
@@ -44,5 +45,6 @@ export default function App() {
         <Search />
       </div>
     </div>
+  </>
   );
 }
