@@ -12,9 +12,9 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <div className="App">
+      <div className="">
         <LandingPage />
-      </div>  
-    </>  
+      </div>
+    </>
   );
 }
