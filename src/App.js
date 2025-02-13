@@ -9,43 +9,12 @@ import NavBar from "./components/NavBar";
 import LandingPage from "./LandingPage.jsx";
 
 export default function App() {
-  const [page, setPage] = useState(1);
-  const moviesPerPage = 5; // Change this to control movies per page
-
-  // Calculate the displayed movies based on the selected page
-  const startIndex = (page - 1) * moviesPerPage;
-  const displayedMovies = movies.slice(startIndex, startIndex + moviesPerPage);
-
   return (
     <>
       <NavBar />
       <div className="App">
         <LandingPage />
-        <div className="Grid-1">
-          {displayedMovies.map((movie) => (
-            <MovieDivs
-              key={movie.id}
-              title={movie.title}
-              date={movie.date}
-              image={movie.image} // Passing image prop
-            />
-          ))}
-
-          <Pagination
-            className="pagination"
-            count={Math.ceil(movies.length / moviesPerPage)}
-            page={page}
-            onChange={(_, value) => setPage(value)}
-            variant="outlined"
-            shape="rounded"
-          />
-        </div>
-
-      {/* Second Grid */}
-      <div className="Grid-2">
-        <Search />
-      </div>
-    </div>
-  </>  
+      </div>  
+    </>  
   );
 }

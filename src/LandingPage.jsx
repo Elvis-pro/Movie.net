@@ -17,7 +17,6 @@ export default function App() {
 
   return (
     <>
-      <NavBar />
       <div className="App">
         <div className="Grid-1">
           {displayedMovies.map((movie) => (
