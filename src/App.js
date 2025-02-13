@@ -4,6 +4,7 @@ import Pagination from "@mui/material/Pagination";
 import movies from "./movieData"; // Import the static movie data
 import Search from "./Search_section";
 import "./style.css";
+import NavBar from "./components/NavBar";
 
 export default function App() {
   const [page, setPage] = useState(1);
@@ -14,31 +15,34 @@ export default function App() {
   const displayedMovies = movies.slice(startIndex, startIndex + moviesPerPage);
 
   return (
-    <div className="App">
-      <div className="Grid-1">
-        {displayedMovies.map((movie) => (
-          <MovieDivs
-            key={movie.id}
-            title={movie.title}
-            date={movie.date}
-            image={movie.image} // Passing image prop
+    <>
+      <NavBar />
+      <div className="App">
+        <div className="Grid-1">
+          {displayedMovies.map((movie) => (
+            <MovieDivs
+              key={movie.id}
+              title={movie.title}
+              date={movie.date}
+              image={movie.image} // Passing image prop
+            />
+          ))}
+
+          <Pagination
+            className="pagination"
+            count={Math.ceil(movies.length / moviesPerPage)}
+            page={page}
+            onChange={(_, value) => setPage(value)}
+            variant="outlined"
+            shape="rounded"
           />
-        ))}
+        </div>
 
-        <Pagination
-          className="pagination"
-          count={Math.ceil(movies.length / moviesPerPage)}
-          page={page}
-          onChange={(_, value) => setPage(value)}
-          variant="outlined"
-          shape="rounded"
-        />
+        {/* Second Grid */}
+        <div className="Grid-2">
+          <Search />
+        </div>
       </div>
-
-      {/* Second Grid */}
-      <div className="Grid-2">
-        <Search />
-      </div>
-    </div>
+    </>
   );
 }
