@@ -6,6 +6,33 @@
 }
 
 .navbar {
-    background-color: goldenrod;
-    height: 10vh;
+    padding: 1vh 5.5vw;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .left .logo-container {
+    width: 10vw;
+    height: 20vh;
+    background-color: rgb(86, 166, 245);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.navbar .right {
+
+}
+
+
+.navbar .right a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.756);
+    margin-left: 3vw;
+    font-size: 15px;
 }
