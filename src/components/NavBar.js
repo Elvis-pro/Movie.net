@@ -1,12 +1,12 @@
 import React from 'react'
 import { useNavigate, Link } from 'react-router-dom';
-
-import "../css/navbar.css"
+import "../css/navbar.css";
+import AnimatedDropdown from './AnimatedDropdown';
 
 const NavBar = () => {
   return (
-    <div className='navbar'>
-
+    <>
+      <div className='navbar'>
         <div className="left">
           <div className="logo-container">
             <h2>MVN</h2>
@@ -19,9 +19,18 @@ const NavBar = () => {
           <Link>Movies</Link>
           <Link>Genry</Link>
           <Link>How To Download</Link>
-        </div>
+        </div>  
+      </div>
 
-    </div>
+      <div className="mobile-navbar">
+        <div className="left">
+          <div className="logo-container">
+            <h2>MVN</h2>
+          </div>
+        </div>
+        <AnimatedDropdown />
+      </div>
+    </>  
   )
 }
 
