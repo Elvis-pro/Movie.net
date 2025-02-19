@@ -37,6 +37,8 @@
   font-weight: bolder;
 }
 
+
+
 @media screen and (max-width: 1024px) {
 
   .navbar {
@@ -50,6 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative; /* Ensures it stays in place */
   }
 
   .mobile-navbar .left .logo-container {
@@ -62,7 +65,24 @@
     justify-content: center;
     color: black;
   }
+
+  .mobile-navbar .left .logo-container h2 {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .mobile-navbar .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .dropdown-container {
+    width: 100%;
+  }
 }
+
 
 
 
