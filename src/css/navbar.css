@@ -101,4 +101,9 @@
     width: 30vw;
     height: 15vh;
   }
+
+  .mobile-navbar .left .logo-container h2 {
+    font-size: 27px;
+    font-weight: bolder;
+  }
 }

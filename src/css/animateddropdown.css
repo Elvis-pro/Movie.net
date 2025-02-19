@@ -21,10 +21,6 @@
         border-radius: 10px;
     }
 
-    .links-container {
-    
-    }
-
     .links-container a {
         width: 100%;
         display: block !important;
@@ -45,8 +41,13 @@
 @media screen and (max-width:430px) {
 
     .myclass {
-        position: fixed !important;
+        position: absolute !important;
         left: 70vw;
         top: 6vh;
+    }
+
+    .links-container a {
+        font-size: 20px;
+        padding: 2vh 0 2vh 10vw;
     }
 }
