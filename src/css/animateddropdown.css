@@ -1,53 +1,49 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .myclass {
-    display: none;
+  display: none;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
+  .myclass {
+    display: block;
+    position: absolute !important;
+    left: 80vw;
+    top: 6vh;
+    color: black !important;
+    padding: 10px 13px;
+    border: 1px solid rgb(86, 166, 245);
+    background-color: transparent;
+    border-radius: 10px;
+  }
 
-    .myclass {
-        display: block;
-        position: absolute !important;
-        left: 80vw;
-        top: 6vh;
-        color: black !important;
-        padding: 10px 13px;
-        border: 1px solid rgb(86, 166, 245);
-        background-color: transparent;
-        border-radius: 10px;
-    }
+  .links-container a {
+    width: 100%;
+    display: block !important;
+    color: black;
+    /* font-size: 25px; */
+    padding: 3vh 0 3vh 10vw;
+    border-bottom: 1px solid grey;
+    text-decoration: none;
+  }
 
-    .links-container a {
-        width: 100%;
-        display: block !important;
-        color: black;
-        font-size: 25px;
-        padding: 3vh 0 3vh 10vw;
-        border-bottom: 1px solid grey;
-        text-decoration: none;
-    }
-
-    .links-container a:hover {
-        background-color: rgb(86, 166, 245);
-    }
+  .links-container a:hover {
+    background-color: rgb(86, 166, 245);
+  }
 }
 
+@media screen and (max-width: 430px) {
+  .myclass {
+    position: absolute !important;
+    left: 70vw;
+    top: 6vh;
+  }
 
-
-@media screen and (max-width:430px) {
-
-    .myclass {
-        position: absolute !important;
-        left: 70vw;
-        top: 6vh;
-    }
-
-    .links-container a {
-        font-size: 20px;
-        padding: 2vh 0 2vh 10vw;
-    }
+  .links-container a {
+    /* font-size: 20px; */
+    padding: 2vh 0 2vh 10vw;
+  }
 }

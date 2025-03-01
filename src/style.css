@@ -68,6 +68,8 @@ body {
 .M-tittle {
   width: 100%;
   margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .M-tittle:hover {
@@ -125,13 +127,13 @@ body {
 }
 
 .S-button {
-  padding: 2vh;
+  padding: 1.8vh;
   width: 100%;
   border: 1px solid rgb(190, 187, 187);
   margin-bottom: 7vh;
 }
 
-.h4 {
+.dis {
   font-size: 12px;
   font-weight: 100;
   width: 100%;
