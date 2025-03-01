@@ -5,6 +5,7 @@ import movies from "./movieData"; // Import the static movie data
 import Search from "./Search_section";
 import ScrollToTop from "./scrollto";
 import "./style.css";
+import NavBar from "./components/NavBar";
 
 export default function App() {
   const [page, setPage] = useState(1);
@@ -17,6 +18,7 @@ export default function App() {
   return (
     <>
       <div className="App">
+        <NavBar />
         <div className="Grid-1">
           {displayedMovies.map((movie) => (
             <MovieDivs

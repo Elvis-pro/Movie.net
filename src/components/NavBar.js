@@ -15,7 +15,7 @@ const NavBar = () => {
         </div>
 
         <div className="right">
-          <Link>Home</Link>
+          <Link to="home">Home</Link>
           <Link>TV Series</Link>
           <Link>Movies</Link>
           <Link>Genry</Link>

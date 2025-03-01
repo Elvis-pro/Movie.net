@@ -1,4 +1,4 @@
-export default function search() {
+export default function Search() {
   return (
     <div className="searchbar">
       <input className="S-button" placeholder="Search Here" />

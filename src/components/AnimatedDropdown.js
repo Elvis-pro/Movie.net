@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "../css/animateddropdown.css"
+import NavBar from "./NavBar";
 
 function AnimatedDropdown() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +13,7 @@ function AnimatedDropdown() {
 
   return (
     <div className="w-full">
+      <NavBar />
       {/* Button aligned right */}
       <div className="flex justify-end">
         <button
@@ -30,11 +32,11 @@ function AnimatedDropdown() {
         className={`overflow-hidden bg-gray-100 w-full rounded-lg shadow-md mt-2 ${isOpen ? "block" : "hidden"}`}
       >
         <div className="links-container">
-          <a>Home</a>
-          <a>TV Series</a>
-          <a href="http://www.facebook.com">Movies</a>
-          <a>Genry</a>
-          <a>How To Download</a>
+          <Link to="home">Home</Link>
+          <Link>TV Series</Link>
+          <Link>Movies</Link>
+          <Link>Genry</Link>
+          <Link>How To Download</Link>
         </div>
       </motion.div>
     </div>

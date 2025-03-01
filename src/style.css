@@ -5,8 +5,6 @@
   font-family: sans-serif;
 }
 
-body {
-}
 
 .App {
   width: 89%;
@@ -42,13 +40,6 @@ body {
   background-color: brown;
 }
 
-.custom-div:hover {
-  /* background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.4)
-  ); */
-}
 
 .tittle-div {
   width: 50%;

@@ -1,18 +1,20 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import "./style.css";
-import NavBar from "./components/NavBar";
 import LandingPage from "./LandingPage.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/Home.js";
 
 
 export default function App() {
   return (
     <>
-      <NavBar />
-      <div className="">
-        <LandingPage />
-      </div>
+      <div className="app">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="home" element={<Home />} />
+        </Routes>
+      </div>  
     </>
   );
 }
