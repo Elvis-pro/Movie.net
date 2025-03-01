@@ -12,7 +12,7 @@
 .navbar {
   padding: 1vh 5.5vw !important;
   background-color: white;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(223, 220, 220, 0.903);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,14 +33,12 @@
   text-decoration: none;
   color: rgba(0, 0, 0, 0.756);
   margin-left: 3vw;
-  font-size: 18px;
-  font-weight: bolder;
+  font-weight: 500;
+  font-size: 15px;
 }
 
-
-
+/* media-query section */
 @media screen and (max-width: 1024px) {
-
   .navbar {
     display: none !important;
   }
@@ -48,7 +46,7 @@
   .mobile-navbar {
     padding: 1vh 5.5vw;
     background-color: white;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(223, 220, 220, 0.903);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +65,7 @@
   }
 
   .mobile-navbar .left .logo-container h2 {
-    font-size: 40px;
+    /* font-size: 40px; */
     font-weight: bolder;
   }
 
@@ -83,15 +81,11 @@
   }
 }
 
-
-
-
 @media screen and (max-width: 430px) {
-
   .mobile-navbar {
     padding: 1vh 5.5vw;
     background-color: white;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(223, 220, 220, 0.903);
     display: flex;
     justify-content: space-between;
     align-items: center;
