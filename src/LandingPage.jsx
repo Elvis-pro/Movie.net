@@ -18,14 +18,14 @@ export default function LandingPage() {
   return (
     <>
       <div className="App">
-        <NavBar />
+        {/* <NavBar /> */}
         <div className="Grid-1">
           {displayedMovies.map((movie) => (
             <MovieDivs
               key={movie.id}
               title={movie.title}
               date={movie.date}
-              image={movie.image} // Passing image prop
+              image={movie.image}
             />
           ))}
 
