@@ -17,7 +17,7 @@ export default function LandingPage() {
 
   return (
     <>
-      <div className="land">
+      <div className="App">
         <NavBar />
         <div className="Grid-1">
           {displayedMovies.map((movie) => (

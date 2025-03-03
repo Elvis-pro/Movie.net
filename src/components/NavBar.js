@@ -30,8 +30,6 @@ const NavBar = () => {
             <h2>MVN</h2>
           </div>
         </div>
-
-       
       </div>
 
       {/* Dropdown Menu - Moved outside navbar so it pushes content down */}

@@ -37,6 +37,10 @@
   font-size: 15px;
 }
 
+/* .dropdown-container {
+  display: none;
+} */
+
 /* media-query section */
 @media screen and (max-width: 1024px) {
   .navbar {
@@ -78,6 +82,7 @@
 
   .dropdown-container {
     width: 100%;
+    display: block;
   }
 }
 
