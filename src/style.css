@@ -5,7 +5,6 @@
   font-family: sans-serif;
 }
 
-
 .App {
   width: 89%;
   max-width: 89%;
@@ -20,6 +19,7 @@
   width: 100%;
   max-width: 100%;
   background-color: white;
+  border-right: 1px solid #f5ebeb;
 }
 
 .pagination {
@@ -31,6 +31,7 @@
   max-width: 98%;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #f5ebeb;
 }
 
 .custom-div {
@@ -39,7 +40,6 @@
   max-width: 45%;
   background-color: brown;
 }
-
 
 .tittle-div {
   width: 50%;
@@ -184,20 +184,31 @@
   .App {
     display: block;
   }
+
   .CommentIcon {
     font-size: 18px;
   }
+
   .searchbar {
     width: 100%;
     max-width: 100%;
     margin-left: 0%;
   }
+
   .scroll-to-top:hover {
     background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     );
+  }
+
+  .movie-box {
+    border-bottom: none;
+  }
+
+  .Grid-1 {
+    border-right: none;
   }
 }
 
@@ -207,6 +218,10 @@
     display: block;
   }
 
+  .movie-box {
+    border-bottom: none;
+  }
+
   .CommentIcon {
     font-size: 18px;
   }
@@ -221,6 +236,10 @@
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     );
+  }
+
+  .Grid-1 {
+    border-right: none;
   }
 }
 
@@ -232,6 +251,7 @@
     display: block;
     width: 100%;
     max-width: 100%;
+    border-bottom: none;
   }
 
   .tittle-div {
@@ -289,5 +309,9 @@
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     );
+  }
+
+  .Grid-1 {
+    border-right: none;
   }
 }
