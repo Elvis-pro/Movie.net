@@ -7,7 +7,7 @@ import ScrollToTop from "./scrollto";
 import "./style.css";
 import NavBar from "./components/NavBar";
 
-export default function App() {
+export default function LandingPage() {
   const [page, setPage] = useState(1);
   const moviesPerPage = 5; // Change this to control movies per page
 
@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <>
-      <div className="App">
+      <div className="land">
         <NavBar />
         <div className="Grid-1">
           {displayedMovies.map((movie) => (
