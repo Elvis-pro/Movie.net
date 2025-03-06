@@ -1,10 +1,21 @@
 import React from "react";
-import NavBar from "./NavBar";
+import Notice from "../components/Notice";
+import AdsDivs from "../components/AdsDivs";
+import Scrollto from "../scrollto";
+import "../css/HomePage.css";
+import "../style.css";
 
 const Home = () => {
   return (
-    <div className="home">
-      <h1>Home Page</h1>
+    <div className="page">
+      <div className="home">
+        <div className="notice-box">
+          <Notice />
+        </div>
+        <AdsDivs />
+      </div>
+
+      <Scrollto />
     </div>
   );
 };
