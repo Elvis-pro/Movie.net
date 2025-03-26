@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.movie-menu-page {
+  width: 100%;
+}
+
+.movie-menu-innerpage {
+  height: 100vh;
+  width: 84%;
+  margin: auto;
+  background-color: orange;
+  padding-top: 8vh;
+}
+
+.s-b2 {
+  margin-bottom: 5vh;
+}
+
+.ads-div {
+  width: 95%;
+  background-color: white;
+  margin: auto;
+  padding-top: 0.3vh;
+}
+
+.ab2 {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.inner-adsdiv1 {
+  height: 40vh;
+  width: 35%;
+  background-color: #e6cd28;
+  margin: auto;
+  margin-bottom: 3vh;
+}

@@ -48,7 +48,7 @@ export default function MovieGrid() {
           </div>
         ))}
       </div>
-      <a href="/" className="load-more">
+      <a href="/Moviemenu" className="load-more">
         Load More Movies
       </a>
     </div>
