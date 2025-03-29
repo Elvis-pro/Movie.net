@@ -14,6 +14,7 @@ const Home = () => {
         </div>
         <AdsDivs />
       </div>
+      <Scrollto />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import "../css/MovieMenu.css";
 import "../css/HomePage.css";
 import PMovieCard from "./PopularDownload";
 import NewUpload from "./NewUpload";
+import Scrollto from "../scrollto";
 
 export default function MovieMenu() {
   return (
@@ -44,6 +45,7 @@ export default function MovieMenu() {
           </div>
         </div>
       </div>
+      <Scrollto />
     </div>
   );
 }

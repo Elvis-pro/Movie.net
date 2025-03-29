@@ -3,6 +3,8 @@ import "../css/MovieMenu.css";
 import "../css/HomePage.css";
 import PMovieCard from "./PopularSDownload";
 import NewUpload from "./NewSUpload";
+import SeriesList from "./SeriesList";
+import Scrollto from "../scrollto";
 
 export default function MovieMenu() {
   return (
@@ -38,12 +40,23 @@ export default function MovieMenu() {
           <div className="p-tittles">
             <h3 className="popular-movie" style={{ fontWeight: "600" }}>
               {" "}
-              Popular Movie Download
+              New Series Upload
             </h3>
             <NewUpload />
           </div>
+          <div className="s-b2">
+            <div className="ads-img"></div>
+          </div>
+          <div className="p-tittles">
+            <h3 className="popular-movie" style={{ fontWeight: "600" }}>
+              {" "}
+              New Series Upload
+            </h3>
+            <SeriesList />
+          </div>
         </div>
       </div>
+      <Scrollto />
     </div>
   );
 }

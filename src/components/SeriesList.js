@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Popular from "../NewSeriesList";
+import Popular from "../SeriesData";
 
 export default function MovieGrid() {
-  const [visibleMovies, setVisibleMovies] = useState(5);
+  const [visibleMovies, setVisibleMovies] = useState(10);
 
   return (
     <div className="movie-container">
@@ -44,9 +44,9 @@ export default function MovieGrid() {
           </div>
         ))}
       </div>
-      {/* <a href="/" className="load-more">
-        Load More Movies
-      </a> */}
+      <a href="/TVSERIESLIST" className="load-more">
+        Load More Series
+      </a>
     </div>
   );
 }
