@@ -1,14 +1,14 @@
 import { useState } from "react";
-import series from "../SeriesData";
+import Popular from "../SeriesData";
 
-export default function SeriesGrid() {
-  const [visibleSeries, setVisibleSeries] = useState(10);
+export default function MovieGrid() {
+  const [visibleMovies, setVisibleMovies] = useState(5);
 
   return (
-    <div className="series-container">
-      <h2 className="title">New Series Uploads</h2>
+    <div className="movie-container">
+      {/* <h2 className="title">New Movie Uploads</h2> */}
       <div
-        className="series-grid"
+        className="movie-grid"
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
@@ -16,10 +16,10 @@ export default function SeriesGrid() {
           justifyContent: "center",
         }}
       >
-        {series.slice(0, visibleSeries).map((seriesItem, index) => (
+        {Popular.slice(0, visibleMovies).map((Popular, index) => (
           <div
             key={index}
-            className="series-card"
+            className="movie-card"
             style={{
               border: "1px solid #cccccc",
               borderRadius: "5px",
@@ -27,27 +27,25 @@ export default function SeriesGrid() {
             }}
           >
             <div
-              className="series-image"
+              className="movie-image"
               style={{
-                backgroundImage: `url(${seriesItem.image})`,
+                backgroundImage: `url(${Popular.image})`,
                 height: "250px",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 borderRadius: "5px",
               }}
             ></div>
-            <div className="series-info">
+            <div className="movie-info">
               <h3 style={{ fontSize: "12px", margin: "10px 0" }}>
-                {seriesItem.title}
+                {Popular.title}
               </h3>
             </div>
           </div>
         ))}
       </div>
-
-      {/* Navigation Link to Load More */}
-      <a href="/Seriesmenu" className="load-more">
-        Load More Series
+      <a href="/" className="load-more">
+        Load More Movies
       </a>
     </div>
   );
