@@ -3,3 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.inner-page {
+  height: 130vh;
+  width: 100%;
+}
+
+.inner-list {
+  height: 130vh;
+  width: 85%;
+  background-color: white;
+  margin: auto;
+}

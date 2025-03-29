@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/Moviemenu" element={<Moviemenu />} />
         <Route path="/Seriesmenu" element={<Seriesmenu />} />
-        <Route path="/TVSERIESLIST" element={<TVSERIESLIST />} />
+        <Route path="/TVSERIESLIST/:page?" element={<TVSERIESLIST />} />
       </Routes>
     </div>
   );
