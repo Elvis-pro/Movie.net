@@ -39,7 +39,7 @@ export default function MovieMenu() {
           <div className="p-tittles">
             <h3 className="popular-movie" style={{ fontWeight: "600" }}>
               {" "}
-              Popular Movie Download
+              New Movie Download
             </h3>
             <NewUpload />
           </div>

@@ -1,31 +1,35 @@
 import React, { useState } from "react";
-import MovieDivs from "./blogPost"; // Your movie component
+import { Link } from "react-router-dom";
+import MovieDivs from "./blogPost";
 import Pagination from "@mui/material/Pagination";
-import movies from "./movieData"; // Import the static movie data
+import movies from "./movieData";
 import Search from "./Search_section";
 import ScrollToTop from "./scrollto";
 import "./style.css";
 
 export default function LandingPage() {
   const [page, setPage] = useState(1);
-  const moviesPerPage = 5; // Change this to control movies per page
+  const moviesPerPage = 5;
 
-  // Calculate the displayed movies based on the selected page
   const startIndex = (page - 1) * moviesPerPage;
   const displayedMovies = movies.slice(startIndex, startIndex + moviesPerPage);
 
   return (
     <>
       <div className="App">
-        {/* <NavBar /> */}
         <div className="Grid-1">
           {displayedMovies.map((movie) => (
-            <MovieDivs
+            <Link
+              to={`/movies/${movie.slug}`}
               key={movie.id}
-              title={movie.title}
-              date={movie.date}
-              image={movie.image}
-            />
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <MovieDivs
+                title={movie.title}
+                date={movie.date}
+                image={movie.image}
+              />
+            </Link>
           ))}
 
           <Pagination
@@ -38,10 +42,10 @@ export default function LandingPage() {
           />
         </div>
 
-        {/* Second Grid */}
         <div className="Grid-2">
           <Search />
         </div>
+
         <ScrollToTop />
       </div>
     </>
