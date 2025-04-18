@@ -10,10 +10,8 @@
 }
 
 .movie-menu-innerpage {
-  /* height: 100vh; */
   width: 84%;
   margin: auto;
-  /* background-color: orange; */
   padding-top: 8vh;
   padding-bottom: 2vh;
 }
@@ -24,7 +22,6 @@
 
 .ads-div {
   width: 95%;
-  /* background-color: white; */
   margin: auto;
   padding-top: 0.3vh;
 }
@@ -50,7 +47,6 @@
 .p-tittles {
   width: 98%;
   margin: auto;
-  /* background-color: white; */
 }
 
 .popular-movie {

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.YT-Trailer {
+  height: 67vh;
+  width: 100%;
+  margin-bottom: 2vh;
+}

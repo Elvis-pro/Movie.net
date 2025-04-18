@@ -118,17 +118,21 @@
 }
 
 .S-button {
-  padding: 1.8vh;
+  padding: 1vh;
   width: 100%;
   border: 1px solid rgb(190, 187, 187);
   margin-bottom: 7vh;
+}
+
+.S-button:focus {
+  outline: none;
 }
 
 .dis {
   font-size: 12px;
   font-weight: 100;
   width: 100%;
-  padding: 1vh;
+  padding: 0.1vh;
   margin-bottom: 4vh;
   border-left: 4px solid #0099ff; /* Blue left border */
   padding-left: 8px; /* Space between text and border */
@@ -144,6 +148,14 @@
 .click {
   border: none;
   background-color: transparent;
+}
+
+.movie-detail {
+  height: 150vh;
+}
+
+.grid-d {
+  padding-bottom: 3vh;
 }
 
 .scroll-to-top {

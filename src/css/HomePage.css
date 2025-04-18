@@ -52,12 +52,10 @@
 .b1 {
   height: 42vh;
   width: 80%;
-  /* background-color: red; */
 }
 .b2 {
   height: 42vh;
   width: 100%;
-  /* background-color: blue; */
   padding-top: 6px;
 }
 
@@ -71,7 +69,6 @@
 .AdsDivs2 {
   width: 100%;
   padding-top: 1.5vh;
-  /* background-color: rgb(245, 15, 15); */
 }
 
 .s-b1 {
@@ -84,7 +81,6 @@
 
 .s-b2 {
   width: 100%;
-  /* background-color: rgb(110, 108, 103); */
   margin-top: 2.5vh;
 }
 
@@ -99,13 +95,11 @@
   padding-top: 2vh;
   padding-bottom: 2vh;
   width: 100%;
-  /* background-color: green; */
 }
 
 .s-b3 {
   height: 18vh;
   width: 98%;
-  /* background-color: #727296; */
   background-image: url(../images/Screenshot\ 2025-03-24\ 173806.png);
   background-position: center;
   background-repeat: no-repeat;
