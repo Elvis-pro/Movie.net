@@ -9,3 +9,11 @@
   width: 100%;
   margin-bottom: 2vh;
 }
+
+.download-size {
+  height: 13vh;
+  width: 99%;
+  background-color: #d9edf7;
+  border-left: 10px solid #bcdff1;
+  padding-top: 3vh;
+}

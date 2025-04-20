@@ -27,9 +27,32 @@ export default function MovieDetail() {
             allowfullscreen
           ></iframe>
         </div>
-        <h1>{movie.title}</h1>
-        <img src={movie.image} alt={movie.title} style={{ width: "300px" }} />
-        <p>Released: {movie.date}</p>
+        <div classname=""></div>
+        <div className="download-size">
+          <h1
+            style={{
+              fontSize: "15px",
+              marginLeft: "20px",
+              fontWeight: "bolder",
+              color: "#62788f",
+            }}
+          >
+            Download Size
+          </h1>
+          <p
+            style={{
+              fontSize: "12px",
+              marginLeft: "20px",
+              fontWeight: "lighter",
+              color: "#51728f",
+            }}
+          >
+            This Video is {movie.DownloadSize}
+          </p>
+        </div>
+        <h3 style={{ fontSize: "20px", textAlign: "center" }}>
+          Download Link For {movie.title}
+        </h3>
         <a
           href={movie.downloadLink}
           className="download-btn"
