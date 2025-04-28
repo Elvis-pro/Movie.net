@@ -6,6 +6,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=Better+Man+2024",
     slug: "better-man-2024",
     downloadLink: "https://doodstream.com/dl/better-man-2024-download",
+    size: "1.4GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz1" title="Better Man 2024 Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 2,
@@ -14,6 +17,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=Deadpool+3",
     slug: "deadpool-3",
     downloadLink: "https://streamtape.com/v/deadpool-3-hollywood-movie",
+    size: "1.8GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz2" title="Deadpool 3 Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 3,
@@ -22,6 +28,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=Fast+%26+Furious+10",
     slug: "fast-and-furious-10",
     downloadLink: "https://mixdrop.co/e/fast-and-furious-10-full-movie",
+    size: "2.1GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz3" title="Fast & Furious 10 Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 4,
@@ -30,6 +39,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=Aquaman+2",
     slug: "aquaman-2",
     downloadLink: "https://filemoon.sx/dl/aquaman-2-2023-download",
+    size: "2.0GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz4" title="Aquaman 2 Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 5,
@@ -38,6 +50,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=Mission+Impossible+8",
     slug: "mission-impossible-8",
     downloadLink: "https://doodstream.com/dl/mission-impossible-8",
+    size: "1.9GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz5" title="Mission Impossible 8 Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 6,
@@ -46,6 +61,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=Avatar+3",
     slug: "avatar-3",
     downloadLink: "https://streamhub.to/watch/avatar-3-download",
+    size: "2.5GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz6" title="Avatar 3 Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 7,
@@ -54,6 +72,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=Black+Panther",
     slug: "black-panther-wakanda-forever",
     downloadLink: "https://videozoo.cc/file/black-panther-wakanda-forever",
+    size: "2.2GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz7" title="Black Panther: Wakanda Forever Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 8,
@@ -62,6 +83,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=The+Batman",
     slug: "the-batman",
     downloadLink: "https://filesharer.io/dl/the-batman-2022",
+    size: "2.3GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz8" title="The Batman Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 9,
@@ -70,6 +94,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=Spider-Man+No+Way+Home",
     slug: "spider-man-no-way-home",
     downloadLink: "https://vidstream.xyz/watch/spider-man-no-way-home",
+    size: "2.4GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz9" title="Spider-Man: No Way Home Trailer" frameborder="0" allowfullscreen></iframe>',
   },
   {
     id: 10,
@@ -78,6 +105,9 @@ const movies = [
     image: "https://via.placeholder.com/150?text=The+Flash",
     slug: "the-flash-2023",
     downloadLink: "https://downloadfy.net/movie/the-flash-2023",
+    size: "1.7GB",
+    trailer:
+      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz10" title="The Flash Trailer" frameborder="0" allowfullscreen></iframe>',
   },
 ];
 

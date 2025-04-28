@@ -47,7 +47,7 @@ export default function MovieDetail() {
               color: "#51728f",
             }}
           >
-            This Video is {movie.DownloadSize}
+            This Video is {movie.size}
           </p>
         </div>
         <h3 style={{ fontSize: "20px", textAlign: "center" }}>
