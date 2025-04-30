@@ -7,8 +7,7 @@ const movies = [
     slug: "better-man-2024",
     downloadLink: "https://doodstream.com/dl/better-man-2024-download",
     size: "1.4GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz1" title="Better Man 2024 Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: 'https://www.youtube.com/embed/e0IWxgMjsmw?si=uex4SipxR_pLcKnJ',
   },
   {
     id: 2,
@@ -112,3 +111,5 @@ const movies = [
 ];
 
 export default movies;
+
+// https://www.youtube.com/embed/e0IWxgMjsmw?si=uex4SipxR_pLcKnJ

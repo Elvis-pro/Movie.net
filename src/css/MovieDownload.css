@@ -18,3 +18,35 @@
   padding-top: 3vh;
   margin-bottom: 1vh;
 }
+
+.Recommend {
+  padding: 2vh;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 4vh;
+}
+
+.Recommend-movie {
+  width: 100%;
+  border-bottom: 1px solid #f5ebeb;
+}
+
+.R-video {
+  height: 95vh;
+  width: 70%;
+  margin: auto;
+}
+
+.Tags {
+  padding: 1.5vh;
+  width: 100%;
+  /* background-color: orange; */
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.UMAL {
+  width: 100%;
+  margin-top: 3vh;
+}
