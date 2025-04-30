@@ -49,4 +49,10 @@
 .UMAL {
   width: 100%;
   margin-top: 3vh;
+  /* background-color: orange; */
+  margin-bottom: 3vh;
+}
+
+.Recommended_movies {
+  width: 100%;
 }

@@ -3,6 +3,7 @@ import movies from "../movieData";
 import Search from "../Search_section";
 import ScrollToTop from "../scrollto";
 import Rvideo from "../components/Recommended";
+import UMAL from "./UMAL";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import "../css/MovieDownload.css";
 import "../style.css";
@@ -98,6 +99,9 @@ export default function MovieDetail() {
           >
             YOU MIGHT ALSO LIKE
           </span>
+        </div>
+        <div className="Recommended_movies">
+          <UMAL />
         </div>
       </div>
       <div className="grid-2">
