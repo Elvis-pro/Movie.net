@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import series from "../SeriesData";
 
 export default function SeriesGrid() {
@@ -17,31 +18,36 @@ export default function SeriesGrid() {
         }}
       >
         {series.slice(0, visibleSeries).map((seriesItem, index) => (
-          <div
+          <Link
+            to={`/series/${seriesItem.slug}`}
             key={index}
-            className="series-card"
-            style={{
-              border: "1px solid #cccccc",
-              borderRadius: "5px",
-              textAlign: "center",
-            }}
+            style={{ textDecoration: "none", color: "inherit" }}
           >
             <div
-              className="series-image"
+              className="series-card"
               style={{
-                backgroundImage: `url(${seriesItem.image})`,
-                height: "250px",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                border: "1px solid #cccccc",
                 borderRadius: "5px",
+                textAlign: "center",
               }}
-            ></div>
-            <div className="series-info">
-              <h3 style={{ fontSize: "12px", margin: "10px 0" }}>
-                {seriesItem.title}
-              </h3>
+            >
+              <div
+                className="series-image"
+                style={{
+                  backgroundImage: `url(${seriesItem.image})`,
+                  height: "250px",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  borderRadius: "5px",
+                }}
+              ></div>
+              <div className="series-info">
+                <h3 style={{ fontSize: "12px", margin: "10px 0" }}>
+                  {seriesItem.title}
+                </h3>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 

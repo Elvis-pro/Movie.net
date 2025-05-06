@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Popular from "../SeriesData";
 
 export default function MovieGrid() {
@@ -6,7 +7,6 @@ export default function MovieGrid() {
 
   return (
     <div className="movie-container">
-      {/* <h2 className="title">New Movie Uploads</h2> */}
       <div
         className="movie-grid"
         style={{
@@ -16,32 +16,37 @@ export default function MovieGrid() {
           justifyContent: "center",
         }}
       >
-        {Popular.slice(0, visibleMovies).map((Popular, index) => (
-          <div
+        {Popular.slice(0, visibleMovies).map((seriesItem, index) => (
+          <Link
+            to={`/series/${seriesItem.slug}`}
             key={index}
-            className="movie-card"
-            style={{
-              border: "1px solid #cccccc",
-              borderRadius: "5px",
-              textAlign: "center",
-            }}
+            style={{ textDecoration: "none", color: "inherit" }}
           >
             <div
-              className="movie-image"
+              className="movie-card"
               style={{
-                backgroundImage: `url(${Popular.image})`,
-                height: "250px",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                border: "1px solid #cccccc",
                 borderRadius: "5px",
+                textAlign: "center",
               }}
-            ></div>
-            <div className="movie-info">
-              <h3 style={{ fontSize: "12px", margin: "10px 0" }}>
-                {Popular.title}
-              </h3>
+            >
+              <div
+                className="movie-image"
+                style={{
+                  backgroundImage: `url(${seriesItem.image})`,
+                  height: "250px",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  borderRadius: "5px",
+                }}
+              ></div>
+              <div className="movie-info">
+                <h3 style={{ fontSize: "12px", margin: "10px 0" }}>
+                  {seriesItem.title}
+                </h3>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
       <a href="/TVSERIESLIST" className="load-more">

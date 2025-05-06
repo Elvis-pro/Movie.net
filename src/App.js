@@ -7,6 +7,7 @@ import Seriesmenu from "./components/SeriesMenu.js";
 import TVSERIESLIST from "./components/TvSeriesList.js";
 import Navbar from "./components/NavBar.js";
 import MovieDetail from "./components/MovieDownload.js";
+import SeriesDownload from "./components/SeriesDownload.js";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/Seriesmenu" element={<Seriesmenu />} />
         <Route path="/TVSERIESLIST/:page?" element={<TVSERIESLIST />} />
         <Route path="/movies/:slug" element={<MovieDetail />} />
+        <Route path="/series/:slug" element={<SeriesDownload />} />
       </Routes>
     </div>
   );

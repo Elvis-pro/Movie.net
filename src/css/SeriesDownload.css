@@ -1,0 +1,56 @@
+.series-download-container {
+    padding: 20px;
+  }
+  
+  .series-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  
+  .series-card {
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  
+  .series-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .season-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .season-card {
+    padding: 10px 20px;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+  }
+  
+  .season-card:hover {
+    background: #ddd;
+  }
+  
+  .episode-list {
+    margin-top: 20px;
+  }
+  
+  .episode-list li {
+    margin-bottom: 10px;
+  }
+  
