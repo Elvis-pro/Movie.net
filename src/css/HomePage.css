@@ -60,7 +60,7 @@
 }
 
 .inner-adsdiv {
-  height: 40vh;
+  padding: 18vh 0;
   width: 55%;
   background-color: #e6cd28;
   margin: auto;
@@ -202,4 +202,58 @@
   opacity: 1;
 }
 
-/* Movie-mune css */
+/* Media querry */
+@media screen and (max-width: 1024px) and (min-width: 959px) {
+  .b1 {
+    height: 22vh;
+  }
+  .b2 {
+    height: 0;
+  }
+  .inner-adsdiv {
+    padding: 10vh 50%;
+  }
+  .ads-img {
+    width: 80%;
+    height: 9vh;
+  }
+}
+@media screen and (max-width: 958px) and (min-width: 769px) {
+  .b1 {
+    height: 22vh;
+  }
+  .b2 {
+    height: 0;
+  }
+  .inner-adsdiv {
+    padding: 10vh 50%;
+  }
+  .ads-img {
+    width: 100%;
+    height: 9vh;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .home {
+    width: 94%;
+  }
+  .b1 {
+    display: none;
+  }
+  .inner-adsdiv {
+    padding: 17vh 0;
+    width: 80%;
+  }
+  .ads-img {
+    width: 100%;
+    height: 9vh;
+  }
+  .s-b1 {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .s-b3 {
+    height: 10vh;
+  }
+}
