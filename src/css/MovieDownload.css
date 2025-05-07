@@ -33,7 +33,7 @@
 }
 
 .R-video {
-  height: 95vh;
+  /* height: 95vh; */
   width: 70%;
   margin: auto;
 }
@@ -41,7 +41,6 @@
 .Tags {
   padding: 1.5vh;
   width: 100%;
-  /* background-color: orange; */
   margin-top: 4vh;
   margin-bottom: 4vh;
 }
@@ -49,10 +48,54 @@
 .UMAL {
   width: 100%;
   margin-top: 3vh;
-  /* background-color: orange; */
   margin-bottom: 3vh;
 }
 
 .Recommended_movies {
   width: 100%;
+}
+
+/* media query */
+
+@media screen and (max-width: 1024px) and (min-width: 959px) {
+  .YT-Trailer {
+    height: 38vh;
+    width: 100%;
+  }
+
+  .R-video {
+    padding: 42vh 0;
+    width: 95%;
+  }
+
+  .Recommend {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 958px) and (min-width: 768px) {
+  .YT-Trailer {
+    height: 38vh;
+    width: 100%;
+  }
+
+  .R-video {
+    padding: 42vh 0;
+    width: 95%;
+  }
+
+  .Recommend {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .YT-Trailer {
+    height: 30vh;
+    width: 100%;
+  }
+  .R-video {
+    padding: 30vh 0;
+    width: 95%;
+  }
 }
