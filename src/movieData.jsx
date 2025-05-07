@@ -7,7 +7,7 @@ const movies = [
     slug: "better-man-2024",
     downloadLink: "https://doodstream.com/dl/better-man-2024-download",
     size: "1.4GB",
-    trailer: 'https://www.youtube.com/embed/e0IWxgMjsmw?si=uex4SipxR_pLcKnJ',
+    trailer: "https://www.youtube.com/embed/e0IWxgMjsmw?si=uex4SipxR_pLcKnJ",
   },
   {
     id: 2,
@@ -17,8 +17,7 @@ const movies = [
     slug: "deadpool-3",
     downloadLink: "https://streamtape.com/v/deadpool-3-hollywood-movie",
     size: "1.8GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz2" title="Deadpool 3 Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/73_1biulkYk?si=Mosurfab6OEyDr4y",
   },
   {
     id: 3,
@@ -28,8 +27,7 @@ const movies = [
     slug: "fast-and-furious-10",
     downloadLink: "https://mixdrop.co/e/fast-and-furious-10-full-movie",
     size: "2.1GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz3" title="Fast & Furious 10 Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/LPLPz92BMDk?si=KVPSxLG2f1oNUhR8",
   },
   {
     id: 4,
@@ -39,8 +37,7 @@ const movies = [
     slug: "aquaman-2",
     downloadLink: "https://filemoon.sx/dl/aquaman-2-2023-download",
     size: "2.0GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz4" title="Aquaman 2 Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/WNKfvRTzbkg?si=y7T-RNJIeuWcN1pD",
   },
   {
     id: 5,
@@ -50,8 +47,7 @@ const movies = [
     slug: "mission-impossible-8",
     downloadLink: "https://doodstream.com/dl/mission-impossible-8",
     size: "1.9GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz5" title="Mission Impossible 8 Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/avz06PDqDbM?si=Z0mZ8fBt1eGwrA0S",
   },
   {
     id: 6,
@@ -61,8 +57,7 @@ const movies = [
     slug: "avatar-3",
     downloadLink: "https://streamhub.to/watch/avatar-3-download",
     size: "2.5GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz6" title="Avatar 3 Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/1QQ402cnHZw?si=3ORJdBNX5MED58k_",
   },
   {
     id: 7,
@@ -72,8 +67,7 @@ const movies = [
     slug: "black-panther-wakanda-forever",
     downloadLink: "https://videozoo.cc/file/black-panther-wakanda-forever",
     size: "2.2GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz7" title="Black Panther: Wakanda Forever Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/_Z3QKkl1WyM?si=mOJ1qeM8fEjwRhIf",
   },
   {
     id: 8,
@@ -83,8 +77,7 @@ const movies = [
     slug: "the-batman",
     downloadLink: "https://filesharer.io/dl/the-batman-2022",
     size: "2.3GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz8" title="The Batman Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/mqqft2x_Aa4?si=Yn4X7DTd7CFlPgEf",
   },
   {
     id: 9,
@@ -94,8 +87,7 @@ const movies = [
     slug: "spider-man-no-way-home",
     downloadLink: "https://vidstream.xyz/watch/spider-man-no-way-home",
     size: "2.4GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz9" title="Spider-Man: No Way Home Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/JfVOs4VSpmA?si=gGf3Xvos0NIrEWQW",
   },
   {
     id: 10,
@@ -105,11 +97,8 @@ const movies = [
     slug: "the-flash-2023",
     downloadLink: "https://downloadfy.net/movie/the-flash-2023",
     size: "1.7GB",
-    trailer:
-      '<iframe width="100%" height="315" src="https://www.youtube.com/embed/xyz10" title="The Flash Trailer" frameborder="0" allowfullscreen></iframe>',
+    trailer: "https://www.youtube.com/embed/iZUeDkjfPps?si=E9mFRWL363P83p6o",
   },
 ];
 
 export default movies;
-
-// https://www.youtube.com/embed/e0IWxgMjsmw?si=uex4SipxR_pLcKnJ
