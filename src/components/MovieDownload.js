@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import movies from "../movieData";
+import PopularDownload from "../PopularMData";
 import Search from "../Search_section";
 import ScrollToTop from "../scrollto";
 import Rvideo from "../components/Recommended";
@@ -10,7 +11,10 @@ import "../style.css";
 
 export default function MovieDetail() {
   const { slug } = useParams();
-  const movie = movies.find((m) => m.slug === slug);
+
+  // ✅ Combine both movie arrays
+  const combinedMovies = [...movies, ...PopularDownload];
+  const movie = combinedMovies.find((m) => m.slug === slug);
 
   if (!movie) {
     return <h2>Movie not found</h2>;
@@ -24,13 +28,13 @@ export default function MovieDetail() {
             className="YT-Trailer"
             src={movie.trailer}
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
-        <div classname=""></div>
+
         <div className="download-size">
           <h1
             style={{
@@ -53,6 +57,7 @@ export default function MovieDetail() {
             This Video is {movie.size}
           </p>
         </div>
+
         <h3 style={{ fontSize: "20px", textAlign: "center" }}>
           Download Link For {movie.title}
         </h3>
@@ -74,6 +79,7 @@ export default function MovieDetail() {
         >
           👉 Download Movie
         </a>
+
         <div className="Recommend">Recommended after {movie.title}</div>
         <div className="Recommend-movie">
           <Rvideo />
@@ -81,14 +87,10 @@ export default function MovieDetail() {
             <h6 style={{ fontSize: "15px", fontWeight: "bold" }}>Tags: </h6>
           </div>
         </div>
+
         <div className="UMAL">
           <ChevronRightIcon
-            style={{
-              color: "white",
-              fontSize: "25px",
-              fontWeight: "700",
-              color: "blue",
-            }}
+            style={{ color: "blue", fontSize: "25px", fontWeight: "700" }}
           />
           <span
             style={{
@@ -104,9 +106,11 @@ export default function MovieDetail() {
           <UMAL />
         </div>
       </div>
+
       <div className="grid-2">
         <Search />
       </div>
+
       <ScrollToTop />
     </div>
   );
