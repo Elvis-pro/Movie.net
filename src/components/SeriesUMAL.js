@@ -1,16 +1,21 @@
-// SeriesList.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import seriesData from "../SeriesData"; // ✅ Correct import name
+import seriesData from "../SeriesData";
+import Newseries from "../NewSeriesList";
+import popularsdata from "../PopularSData";
 import "../css/MovieList.css";
 
 export default function SeriesList() {
-  const topFourSeries = seriesData.slice(0, 4); // ✅ First 4 series
+  // Combine all series data
+  const combinedSeries = [...seriesData, ...Newseries, ...popularsdata];
+
+  // Pick first 4 (or random 4 if you prefer)
+  const topFourSeries = combinedSeries.slice(0, 4); // or use a shuffle function
 
   return (
     <div className="movie-list-container">
-      {topFourSeries.map((series) => (
-        <div key={series.id} className="movie-card">
+      {topFourSeries.map((series, index) => (
+        <div key={series.id || index} className="movie-card">
           <Link to={`/series/${series.slug}`}>
             <div
               className="movie-image"
@@ -23,7 +28,6 @@ export default function SeriesList() {
             ></div>
           </Link>
           <div className="movie-title">{series.title}</div>
-          {/* <div className="movie-date">📆 {series.date}</di> */}
         </div>
       ))}
     </div>
