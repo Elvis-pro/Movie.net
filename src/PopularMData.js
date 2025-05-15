@@ -1,9 +1,16 @@
+import badboys from "./images/BAD-BOYS.webp";
+import kungfu from "./images/KUNG-FU-PANDA.webp";
+import rebelmoon from "./images/REBELL-MOON.webp";
+import Lift from "./images/LIFT.webp";
+import Beekeeper from "./images/BEEKEEPER.webp"
+
+
 const PopularDownload = [
   {
     title: "Bad Boys: Ride or Die (2024)",
     slug: "bad-boys-ride-or-die-2024",
     category: "Hollywood Movie",
-    image: "badboys.jpg",
+    image: badboys,
     size: "850MB",
     trailer: "https://www.youtube.com/embed/sample1",
     downloadLink: "https://example.com/downloads/badboys",
@@ -12,7 +19,7 @@ const PopularDownload = [
     title: "Kung Fu Panda 4 (2024)",
     slug: "kung-fu-panda-4-2024",
     category: "Hollywood Movie",
-    image: "kungfupanda4.jpg",
+    image: kungfu,
     size: "700MB",
     trailer: "https://www.youtube.com/embed/sample2",
     downloadLink: "https://example.com/downloads/kungfupanda4",
@@ -21,7 +28,7 @@ const PopularDownload = [
     title: "The Beekeeper (2024)",
     slug: "the-beekeeper-2024",
     category: "Hollywood Movie",
-    image: "beekeeper.jpg",
+    image: Beekeeper,
     size: "800MB",
     trailer: "https://www.youtube.com/embed/sample3",
     downloadLink: "https://example.com/downloads/beekeeper",
@@ -30,7 +37,7 @@ const PopularDownload = [
     title: "Lift (2024)",
     slug: "lift-2024",
     category: "Hollywood Movie",
-    image: "lift.jpg",
+    image: Lift,
     size: "750MB",
     trailer: "https://www.youtube.com/embed/sample4",
     downloadLink: "https://example.com/downloads/lift",
@@ -39,19 +46,10 @@ const PopularDownload = [
     title: "Rebel Moon – Part One: A Child of Fire (2023)",
     slug: "rebel-moon-part-one-2023",
     category: "Hollywood Movie",
-    image: "rebelmoon.jpg",
+    image: rebelmoon,
     size: "1.2GB",
     trailer: "https://www.youtube.com/embed/sample5",
     downloadLink: "https://example.com/downloads/rebelmoon",
-  },
-  {
-    title: "The Marvels (2023)",
-    slug: "the-marvels-2023",
-    category: "Hollywood Movie",
-    image: "themarvels.jpg",
-    size: "900MB",
-    trailer: "https://www.youtube.com/embed/sample6",
-    downloadLink: "https://example.com/downloads/themarvels",
   },
 ];
 

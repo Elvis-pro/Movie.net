@@ -7,6 +7,7 @@ import THEBATMAN from "./images/THEBATMAN.webp";
 import BLACKPANTHER from "./images/BLACKPANTHER.webp";
 import AQUAMAN3 from "./images/AQ3.webp";
 import FLASH from "./images/THEFLASH.webp";
+import deadpool from "./images/D&W.webp"
 
 const movies = [
   {
@@ -23,7 +24,7 @@ const movies = [
     id: 2,
     title: "Deadpool 3 | download hollywood movie",
     date: "March 15, 2024",
-    image: "https://via.placeholder.com/150?text=Deadpool+3",
+    image: deadpool,
     slug: "deadpool-3",
     downloadLink: "https://streamtape.com/v/deadpool-3-hollywood-movie",
     size: "1.8GB",
