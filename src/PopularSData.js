@@ -1,8 +1,14 @@
+import HOD from "./SeriesImages/HOD.webp";
+import TB from "./SeriesImages/THEBOYS.webp";
+import ARCANE from "./SeriesImages/ARCANE.webp";
+import LOKI from "./SeriesImages/LOKI.webp";
+import SG from "./SeriesImages/SG.webp"
+
 const PopularDownloads = [
   {
     title: "House of the Dragon - Season 2 (2025)",
     category: "Fantasy Series",
-    image: "houseofthedragon_s2.jpg",
+    image: HOD,
     slug: "house-of-the-dragon-season-2-2025",
     seasons: [
       {
@@ -55,7 +61,7 @@ const PopularDownloads = [
   {
     title: "The Boys - Season 5 (2025)",
     category: "TV Series",
-    image: "theboys_s5.jpg",
+    image: TB,
     slug: "the-boys-season-5-2025",
     seasons: [
       {
@@ -75,7 +81,7 @@ const PopularDownloads = [
   {
     title: "Loki - Season 3 (2025)",
     category: "Marvel Series",
-    image: "loki_s3.jpg",
+    image: LOKI,
     slug: "loki-season-3-2025",
     seasons: [
       {
@@ -112,7 +118,7 @@ const PopularDownloads = [
   {
     title: "Squid Game - Season 2 (2025)",
     category: "Korean Series",
-    image: "squidgame_s2.jpg",
+    image: SG,
     slug: "squid-game-season-2-2025",
     seasons: [
       {
@@ -157,7 +163,7 @@ const PopularDownloads = [
   {
     title: "Arcane - Season 2 (2025)",
     category: "Animated Series",
-    image: "arcane_s2.jpg",
+    image: ARCANE,
     slug: "arcane-season-2-2025",
     seasons: [
       {

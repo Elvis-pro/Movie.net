@@ -1,8 +1,15 @@
+import TW from "./SeriesImages/THEWITCHER.webp";
+import PB from "./SeriesImages/PB.jpeg";
+import TM from "./SeriesImages/TMD.jpeg";
+import DAREDEVIL from "./SeriesImages/DAREDEVIL.jpeg";
+import TU from "./SeriesImages/TUA.jpeg";
+
+
 const NewSeries2025 = [
   {
     title: "The Witcher - Season 4 (2025)",
     category: "Fantasy Series",
-    image: "witcher_s4.jpg",
+    image: TW,
     slug: "the-witcher-season-4-2025",
     seasons: [
       {
@@ -55,7 +62,7 @@ const NewSeries2025 = [
   {
     title: "Peaky Blinders - Season 7 (2025)",
     category: "Crime Series",
-    image: "peakyblinders_s7.jpg",
+    image: PB,
     slug: "peaky-blinders-season-7-2025",
     seasons: [
       {
@@ -98,7 +105,7 @@ const NewSeries2025 = [
   {
     title: "The Mandalorian - Season 4 (2025)",
     category: "Star Wars Series",
-    image: "mandalorian_s4.jpg",
+    image: TM,
     slug: "the-mandalorian-season-4-2025",
     seasons: [
       {
@@ -151,7 +158,7 @@ const NewSeries2025 = [
   {
     title: "Daredevil: Born Again (2025)",
     category: "Marvel Series",
-    image: "daredevil_bornagain.jpg",
+    image: DAREDEVIL,
     slug: "daredevil-born-again-2025",
     seasons: [
       {
@@ -209,7 +216,7 @@ const NewSeries2025 = [
   {
     title: "The Umbrella Academy - Season 4 (2025)",
     category: "TV Series",
-    image: "umbrellaacademy_s4.jpg",
+    image: TU,
     slug: "the-umbrella-academy-season-4-2025",
     seasons: [
       {
