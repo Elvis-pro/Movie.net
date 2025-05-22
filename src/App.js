@@ -18,8 +18,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/Moviemenu" element={<Moviemenu />} />
-        <Route path="/Seriesmenu" element={<Seriesmenu />} />
+        <Route path="/moviemenu" element={<Moviemenu />} />
+        <Route path="/seriesmenu" element={<Seriesmenu />} />
         <Route path="/TVSERIESLIST/:page?" element={<TVSERIESLIST />} />
         <Route path="/movies/:slug" element={<MovieDetail />} />
         <Route path="/series/:slug" element={<SeriesDownload />} />

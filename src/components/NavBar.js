@@ -16,8 +16,8 @@ const NavBar = () => {
 
         <div className="right">
           <Link to="home">Home</Link>
-          <Link to="Seriesmenu">TV Series</Link>
-          <Link to="">Movies</Link>
+          <Link to="seriesmenu">TV Series</Link>
+          <Link to="moviesmenu">Movies</Link>
           <Link>Genry</Link>
           <Link>How To Download</Link>
         </div>
