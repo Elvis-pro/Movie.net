@@ -52,7 +52,7 @@ export default function SeriesGrid() {
       </div>
 
       {/* Navigation Link to Load More */}
-      <a href="/Seriesmenu" className="load-more">
+      <a href="/tv-series" className="load-more">
         Load More Series
       </a>
     </div>

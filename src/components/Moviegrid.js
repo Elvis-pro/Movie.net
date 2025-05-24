@@ -32,7 +32,7 @@ export default function MovieGrid() {
           </Link>
         ))}
       </div>
-      <a href="/Moviemenu" className="load-more">
+      <a href="/movies" className="load-more">
         Load More Movies
       </a>
     </div>
