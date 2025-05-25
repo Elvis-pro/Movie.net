@@ -209,59 +209,6 @@ const PopularDownloads = [
       },
     ],
   },
-  {
-    title: "Stranger Things - Season 5 (2025)",
-    category: "TV Series",
-    image: "strangerthings_s5.jpg",
-    slug: "stranger-things-season-5-2025",
-    seasons: [
-      {
-        season: 5,
-        episodes: [
-          {
-            title: "Episode 1: The Upside Down",
-            downloadLink:
-              "/downloads/stranger-things-season-5-2025/season5/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Hawkins' Curse",
-            downloadLink:
-              "/downloads/stranger-things-season-5-2025/season5/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Shadow Gate",
-            downloadLink:
-              "/downloads/stranger-things-season-5-2025/season5/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Mind Flayer's Return",
-            downloadLink:
-              "/downloads/stranger-things-season-5-2025/season5/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Vecna's Wrath",
-            downloadLink:
-              "/downloads/stranger-things-season-5-2025/season5/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Final Stand",
-            downloadLink:
-              "/downloads/stranger-things-season-5-2025/season5/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Dimension's End",
-            downloadLink:
-              "/downloads/stranger-things-season-5-2025/season5/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Closure",
-            downloadLink:
-              "/downloads/stranger-things-season-5-2025/season5/ep8.mp4",
-          },
-        ],
-      },
-    ],
-  },
 ];
 
 // Exporting the list
