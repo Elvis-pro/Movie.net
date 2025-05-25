@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import series from "../SeriesData";
+import "../css/HomePage.css"
 
 export default function SeriesGrid() {
   const [visibleSeries, setVisibleSeries] = useState(10);
@@ -23,26 +24,15 @@ export default function SeriesGrid() {
             key={index}
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            <div
-              className="series-card"
-              style={{
-                border: "1px solid #cccccc",
-                borderRadius: "5px",
-                textAlign: "center",
-              }}
-            >
+            <div className="movie-card">
               <div
-                className="series-image"
+                className="movie-image"
                 style={{
                   backgroundImage: `url(${seriesItem.image})`,
-                  height: "250px",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  borderRadius: "5px",
                 }}
               ></div>
-              <div className="series-info">
-                <h3 style={{ fontSize: "12px", margin: "10px 0" }}>
+              <div className="movie-info">
+                <h3>
                   {seriesItem.title}
                 </h3>
               </div>
