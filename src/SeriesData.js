@@ -1,63 +1,74 @@
-import EOT from "./SeriesImages/EOT.jpeg";
-import SDP from "./SeriesImages/SHADOWPROTOCOL.jpeg";
-import NG from "./SeriesImages/NEON-GENESIS.jpeg";
-import NK from "./SeriesImages/NK.jpeg";
-import ST from "./SeriesImages/ST.jpeg";
-import OP from "./SeriesImages/OP.jpeg";
-import TOL from "./SeriesImages/THEOUTLANDERS.jpeg";
-import UC from "./SeriesImages/UC.jpeg";
-import CP from "./SeriesImages/CYBERPUNK.jpeg"
-
+import HOTD from "./SeriesImages/HOD.webp";
+import ARCANE from "./SeriesImages/ARCANE.webp";
+import DANDADAN from "./SeriesImages/DANDADAN.webp";
+import SQUIDGAME from "./SeriesImages/SG.webp";
+import SEVERANCE from "./SeriesImages/SEVERANCE.webp";
+import THEBOYS from "./SeriesImages/THEBOYS.webp";
+import ANDOR from "./SeriesImages/ANDOR.webp";
+import SUCCESSION from "./SeriesImages/SUCCESSION.webp";
+import YELLOWJACKETS from "./SeriesImages/YELLOWJACKETS.webp";
+import STRANGERTHINGS from "./SeriesImages/STRANGERTHINGS.webp";
+import THELASTOFUS from "./SeriesImages/LOU.webp";
+import WEDNESDAY from "./SeriesImages/WEDNESDAY.webp";
+import THEMANDALORIAN from "./SeriesImages/TMD.jpeg";
+import BRIDGERTON from "./SeriesImages/BRIDEGTON.webp";
+import THEWITCHER from "./SeriesImages/THEWITCHER.webp";
+import INVINCIBLE from "./SeriesImages/INVINCIBLE.webp";
+import EUPHORIA from "./SeriesImages/EUPHORIA.webp";
+import YOURHONOR from "./SeriesImages/Y-HONOR.webp";
+import SILO from "./SeriesImages/SILO.webp";
+import FALLOUT from "./SeriesImages/FALLOUT.webp";
 
 const series = [
   {
-    title: "Echoes of Time",
-    slug: "echoes-of-time",
-    category: "Sci-Fi Series",
-    image: EOT,
+    title: "House of the Dragon",
+    slug: "house-of-the-dragon",
+    category: "Fantasy Series",
+    image: HOTD,
+    trailer: "https://www.youtube.com/embed/houseofthedragontrailer",
     seasons: [
       {
         season: 1,
         episodes: [
           {
-            title: "Episode 1: Awakening",
-            downloadLink: "/downloads/echoesoftime/season1/ep1.mp4",
+            title: "Episode 1: The Heirs of the Dragon",
+            downloadLink: "/downloads/houseofthedragon/season1/ep1.mp4",
           },
           {
-            title: "Episode 2: Rift",
-            downloadLink: "/downloads/echoesoftime/season1/ep2.mp4",
+            title: "Episode 2: The Rogue Prince",
+            downloadLink: "/downloads/houseofthedragon/season1/ep2.mp4",
           },
           {
-            title: "Episode 3: Nexus",
-            downloadLink: "/downloads/echoesoftime/season1/ep3.mp4",
+            title: "Episode 3: Second of His Name",
+            downloadLink: "/downloads/houseofthedragon/season1/ep3.mp4",
           },
           {
-            title: "Episode 4: Echoes",
-            downloadLink: "/downloads/echoesoftime/season1/ep4.mp4",
+            title: "Episode 4: King of the Narrow Sea",
+            downloadLink: "/downloads/houseofthedragon/season1/ep4.mp4",
           },
           {
-            title: "Episode 5: Horizon",
-            downloadLink: "/downloads/echoesoftime/season1/ep5.mp4",
+            title: "Episode 5: We Light the Way",
+            downloadLink: "/downloads/houseofthedragon/season1/ep5.mp4",
           },
           {
-            title: "Episode 6: Flux",
-            downloadLink: "/downloads/echoesoftime/season1/ep6.mp4",
+            title: "Episode 6: The Princess and the Queen",
+            downloadLink: "/downloads/houseofthedragon/season1/ep6.mp4",
           },
           {
-            title: "Episode 7: Continuum",
-            downloadLink: "/downloads/echoesoftime/season1/ep7.mp4",
+            title: "Episode 7: Driftmark",
+            downloadLink: "/downloads/houseofthedragon/season1/ep7.mp4",
           },
           {
-            title: "Episode 8: Paradox",
-            downloadLink: "/downloads/echoesoftime/season1/ep8.mp4",
+            title: "Episode 8: The Lord of the Tides",
+            downloadLink: "/downloads/houseofthedragon/season1/ep8.mp4",
           },
           {
-            title: "Episode 9: Singularity",
-            downloadLink: "/downloads/echoesoftime/season1/ep9.mp4",
+            title: "Episode 9: The Green Council",
+            downloadLink: "/downloads/houseofthedragon/season1/ep9.mp4",
           },
           {
-            title: "Episode 10: Eternity",
-            downloadLink: "/downloads/echoesoftime/season1/ep10.mp4",
+            title: "Episode 10: The Black Queen",
+            downloadLink: "/downloads/houseofthedragon/season1/ep10.mp4",
           },
         ],
       },
@@ -65,232 +76,632 @@ const series = [
         season: 2,
         episodes: [
           {
-            title: "Episode 1: Resurgence",
-            downloadLink: "/downloads/echoesoftime/season2/ep1.mp4",
+            title: "Episode 1: A Son for a Son",
+            downloadLink: "/downloads/houseofthedragon/season2/ep1.mp4",
           },
           {
-            title: "Episode 2: Shadows",
-            downloadLink: "/downloads/echoesoftime/season2/ep2.mp4",
+            title: "Episode 2: Rhaenyra the Cruel",
+            downloadLink: "/downloads/houseofthedragon/season2/ep2.mp4",
           },
           {
-            title: "Episode 3: Riftwalkers",
-            downloadLink: "/downloads/echoesoftime/season2/ep3.mp4",
+            title: "Episode 3: The Burning Mill",
+            downloadLink: "/downloads/houseofthedragon/season2/ep3.mp4",
           },
           {
-            title: "Episode 4: Collapse",
-            downloadLink: "/downloads/echoesoftime/season2/ep4.mp4",
+            title: "Episode 4: The Red Dragon and the Gold",
+            downloadLink: "/downloads/houseofthedragon/season2/ep4.mp4",
           },
           {
-            title: "Episode 5: Ascension",
-            downloadLink: "/downloads/echoesoftime/season2/ep5.mp4",
+            title: "Episode 5: Regent",
+            downloadLink: "/downloads/houseofthedragon/season2/ep5.mp4",
           },
           {
-            title: "Episode 6: Vortex",
-            downloadLink: "/downloads/echoesoftime/season2/ep6.mp4",
+            title: "Episode 6: Smallfolk",
+            downloadLink: "/downloads/houseofthedragon/season2/ep6.mp4",
           },
           {
-            title: "Episode 7: Reckoning",
-            downloadLink: "/downloads/echoesoftime/season2/ep7.mp4",
+            title: "Episode 7: The Red Sowing",
+            downloadLink: "/downloads/houseofthedragon/season2/ep7.mp4",
           },
           {
-            title: "Episode 8: Infinity",
-            downloadLink: "/downloads/echoesoftime/season2/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Fracture",
-            downloadLink: "/downloads/echoesoftime/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Closure",
-            downloadLink: "/downloads/echoesoftime/season2/ep10.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Dawn",
-            downloadLink: "/downloads/echoesoftime/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Eclipse",
-            downloadLink: "/downloads/echoesoftime/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Genesis",
-            downloadLink: "/downloads/echoesoftime/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Abyss",
-            downloadLink: "/downloads/echoesoftime/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Zenith",
-            downloadLink: "/downloads/echoesoftime/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Nexus",
-            downloadLink: "/downloads/echoesoftime/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Echo",
-            downloadLink: "/downloads/echoesoftime/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Collapse",
-            downloadLink: "/downloads/echoesoftime/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Eternity",
-            downloadLink: "/downloads/echoesoftime/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Finale",
-            downloadLink: "/downloads/echoesoftime/season3/ep10.mp4",
+            title: "Episode 8: The Queen Who Ever Was",
+            downloadLink: "/downloads/houseofthedragon/season2/ep8.mp4",
           },
         ],
       },
     ],
   },
   {
-    title: "Shadow Protocol",
-    slug: "shadow-protocol",
-    category: "Thriller Series",
-    image: SDP,
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Infiltration",
-            downloadLink: "/downloads/shadowprotocol/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Betrayal",
-            downloadLink: "/downloads/shadowprotocol/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Covert",
-            downloadLink: "/downloads/shadowprotocol/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Exposure",
-            downloadLink: "/downloads/shadowprotocol/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Conspiracy",
-            downloadLink: "/downloads/shadowprotocol/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Pursuit",
-            downloadLink: "/downloads/shadowprotocol/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Deception",
-            downloadLink: "/downloads/shadowprotocol/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Endgame",
-            downloadLink: "/downloads/shadowprotocol/season1/ep8.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Reckoning",
-            downloadLink: "/downloads/shadowprotocol/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Fallout",
-            downloadLink: "/downloads/shadowprotocol/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Shadows",
-            downloadLink: "/downloads/shadowprotocol/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Alliance",
-            downloadLink: "/downloads/shadowprotocol/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Gambit",
-            downloadLink: "/downloads/shadowprotocol/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Redemption",
-            downloadLink: "/downloads/shadowprotocol/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Collapse",
-            downloadLink: "/downloads/shadowprotocol/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Finale",
-            downloadLink: "/downloads/shadowprotocol/season2/ep8.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Neon Genesis",
-    slug: "neon-genesis",
+    title: "Arcane",
+    slug: "arcane",
     category: "Animated Series",
-    image: NG,
+    image: ARCANE,
+    trailer: "https://www.youtube.com/embed/arcanetrailer",
     seasons: [
       {
         season: 1,
         episodes: [
           {
-            title: "Episode 1: Awakening",
-            downloadLink: "/downloads/neongenesis/season1/ep1.mp4",
+            title: "Episode 1: Welcome to the Playground",
+            downloadLink: "/downloads/arcane/season1/ep1.mp4",
           },
           {
-            title: "Episode 2: Clash",
-            downloadLink: "/downloads/neongenesis/season1/ep2.mp4",
+            title: "Episode 2: Some Mysteries Are Better Left Unsolved",
+            downloadLink: "/downloads/arcane/season1/ep2.mp4",
           },
           {
-            title: "Episode 3: Destiny",
-            downloadLink: "/downloads/neongenesis/season1/ep3.mp4",
+            title: "Episode 3: The Base Violence Necessary for Change",
+            downloadLink: "/downloads/arcane/season1/ep3.mp4",
           },
           {
-            title: "Episode 4: Trials",
-            downloadLink: "/downloads/neongenesis/season1/ep4.mp4",
+            title: "Episode 4: Happy Progress Day!",
+            downloadLink: "/downloads/arcane/season1/ep4.mp4",
           },
           {
-            title: "Episode 5: Bonds",
-            downloadLink: "/downloads/neongenesis/season1/ep5.mp4",
+            title: "Episode 5: Everybody Wants to Be My Enemy",
+            downloadLink: "/downloads/arcane/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: When These Walls Come Tumbling Down",
+            downloadLink: "/downloads/arcane/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Boy Savior",
+            downloadLink: "/downloads/arcane/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Oil and Water",
+            downloadLink: "/downloads/arcane/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: The Monster You Created",
+            downloadLink: "/downloads/arcane/season1/ep9.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Heavy Is the Crown",
+            downloadLink: "/downloads/arcane/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Meet Me in the Grey",
+            downloadLink: "/downloads/arcane/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Things Buried, Things Found",
+            downloadLink: "/downloads/arcane/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Into the Cold, Cruel World",
+            downloadLink: "/downloads/arcane/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: The Cracks in Your Armor",
+            downloadLink: "/downloads/arcane/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: A Dance Before the Beheading",
+            downloadLink: "/downloads/arcane/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Siege of Ambessa",
+            downloadLink: "/downloads/arcane/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: The Grey Lady and the Girl Who Got Away",
+            downloadLink: "/downloads/arcane/season2/ep8.mp4",
+          },
+          {
+            title: "Episode 9: Nothing Lasts Forever",
+            downloadLink: "/downloads/arcane/season2/ep9.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Dandadan",
+    slug: "dandadan",
+    category: "Animated Series",
+    image: DANDADAN,
+    trailer: "https://www.youtube.com/embed/dandadantrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Merge Parallel Worlds!",
+            downloadLink: "/downloads/dandadan/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: That's a Space Alien, Ain't It?!",
+            downloadLink: "/downloads/dandadan/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: It's a Granny vs. Crab Battle!",
+            downloadLink: "/downloads/dandadan/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Kicking Turbo Granny's Ass!",
+            downloadLink: "/downloads/dandadan/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Like, Where Are Your Balls?!",
+            downloadLink: "/downloads/dandadan/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Kito Family Tradition",
+            downloadLink: "/downloads/dandadan/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Cursed House",
+            downloadLink: "/downloads/dandadan/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: The Acrobatic Silky",
+            downloadLink: "/downloads/dandadan/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: Let's Go to the Cursed House",
+            downloadLink: "/downloads/dandadan/season1/ep9.mp4",
+          },
+          {
+            title: "Episode 10: You're One of Us Now",
+            downloadLink: "/downloads/dandadan/season1/ep10.mp4",
+          },
+          {
+            title: "Episode 11: The Day of the Decisive Battle",
+            downloadLink: "/downloads/dandadan/season1/ep11.mp4",
+          },
+          {
+            title: "Episode 12: Let's Eat Crab",
+            downloadLink: "/downloads/dandadan/season1/ep12.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Return of the Spirits",
+            downloadLink: "/downloads/dandadan/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Alien Invasion Begins",
+            downloadLink: "/downloads/dandadan/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Cosmic Showdown",
+            downloadLink: "/downloads/dandadan/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Granny's Revenge",
+            downloadLink: "/downloads/dandadan/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Supernatural Nexus",
+            downloadLink: "/downloads/dandadan/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Parallel Chaos",
+            downloadLink: "/downloads/dandadan/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Spirit Ascendancy",
+            downloadLink: "/downloads/dandadan/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Cosmic Finale",
+            downloadLink: "/downloads/dandadan/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Squid Game",
+    slug: "squid-game",
+    category: "Thriller Series",
+    image: SQUIDGAME,
+    trailer: "https://www.youtube.com/embed/squidgametrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Red Light, Green Light",
+            downloadLink: "/downloads/squidgame/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Hell",
+            downloadLink: "/downloads/squidgame/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: The Man with the Umbrella",
+            downloadLink: "/downloads/squidgame/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Stick to the Team",
+            downloadLink: "/downloads/squidgame/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: A Fair World",
+            downloadLink: "/downloads/squidgame/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Gganbu",
+            downloadLink: "/downloads/squidgame/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: VIPS",
+            downloadLink: "/downloads/squidgame/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Front Man",
+            downloadLink: "/downloads/squidgame/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: One Lucky Day",
+            downloadLink: "/downloads/squidgame/season1/ep9.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: The Return",
+            downloadLink: "/downloads/squidgame/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: New Players",
+            downloadLink: "/downloads/squidgame/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Deadly Stakes",
+            downloadLink: "/downloads/squidgame/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Betrayal's Edge",
+            downloadLink: "/downloads/squidgame/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: The Organizers",
+            downloadLink: "/downloads/squidgame/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Final Game",
+            downloadLink: "/downloads/squidgame/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: End of the Line",
+            downloadLink: "/downloads/squidgame/season2/ep7.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Severance",
+    slug: "severance",
+    category: "Sci-Fi Series",
+    image: SEVERANCE,
+    trailer: "https://www.youtube.com/embed/severancetrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Good News About Hell",
+            downloadLink: "/downloads/severance/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Half Loop",
+            downloadLink: "/downloads/severance/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: In Perpetuity",
+            downloadLink: "/downloads/severance/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: The You You Are",
+            downloadLink: "/downloads/severance/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: The Grim Barbarity of Optics",
+            downloadLink: "/downloads/severance/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Hide and Seek",
+            downloadLink: "/downloads/severance/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Defiant Jazz",
+            downloadLink: "/downloads/severance/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: What's for Dinner?",
+            downloadLink: "/downloads/severance/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: The We We Are",
+            downloadLink: "/downloads/severance/season1/ep9.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Reunion",
+            downloadLink: "/downloads/severance/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Memory's Edge",
+            downloadLink: "/downloads/severance/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Corporate Shadows",
+            downloadLink: "/downloads/severance/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Inner Divide",
+            downloadLink: "/downloads/severance/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Truth Unraveled",
+            downloadLink: "/downloads/severance/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Hidden Protocols",
+            downloadLink: "/downloads/severance/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Final Merge",
+            downloadLink: "/downloads/severance/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Beyond the Veil",
+            downloadLink: "/downloads/severance/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "The Boys",
+    slug: "the-boys",
+    category: "Action Series",
+    image: THEBOYS,
+    trailer: "https://www.youtube.com/embed/theboystrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: The Name of the Game",
+            downloadLink: "/downloads/theboys/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Cherry",
+            downloadLink: "/downloads/theboys/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Get Some",
+            downloadLink: "/downloads/theboys/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: The Female of the Species",
+            downloadLink: "/downloads/theboys/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Good for the Soul",
+            downloadLink: "/downloads/theboys/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Innocents",
+            downloadLink: "/downloads/theboys/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Self-Preservation Society",
+            downloadLink: "/downloads/theboys/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: You Found Me",
+            downloadLink: "/downloads/theboys/season1/ep8.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: The Big Ride",
+            downloadLink: "/downloads/theboys/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Proper Preparation and Planning",
+            downloadLink: "/downloads/theboys/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Over the Hill with the Swords of a Thousand Men",
+            downloadLink: "/downloads/theboys/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Nothing Like It in the World",
+            downloadLink: "/downloads/theboys/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: We Gotta Go Now",
+            downloadLink: "/downloads/theboys/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Bloody Doors Off",
+            downloadLink: "/downloads/theboys/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Butcher, Baker, Candlestick Maker",
+            downloadLink: "/downloads/theboys/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: What I Know",
+            downloadLink: "/downloads/theboys/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Andor",
+    slug: "andor",
+    category: "Sci-Fi Series",
+    image: ANDOR,
+    trailer: "https://www.youtube.com/embed/andortrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Kassa",
+            downloadLink: "/downloads/andor/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: That Would Be Me",
+            downloadLink: "/downloads/andor/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Reckoning",
+            downloadLink: "/downloads/andor/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Aldhani",
+            downloadLink: "/downloads/andor/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: The Axe Forgets",
+            downloadLink: "/downloads/andor/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Eye",
+            downloadLink: "/downloads/andor/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Announcement",
+            downloadLink: "/downloads/andor/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Narkina 5",
+            downloadLink: "/downloads/andor/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: Nobody's Listening!",
+            downloadLink: "/downloads/andor/season1/ep9.mp4",
+          },
+          {
+            title: "Episode 10: One Way Out",
+            downloadLink: "/downloads/andor/season1/ep10.mp4",
+          },
+          {
+            title: "Episode 11: Daughter of Ferrix",
+            downloadLink: "/downloads/andor/season1/ep11.mp4",
+          },
+          {
+            title: "Episode 12: Rix Road",
+            downloadLink: "/downloads/andor/season1/ep12.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Rebellion Rising",
+            downloadLink: "/downloads/andor/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Imperial Shadow",
+            downloadLink: "/downloads/andor/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Spark of Hope",
+            downloadLink: "/downloads/andor/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Covert Plans",
+            downloadLink: "/downloads/andor/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: The Rebellion Grows",
+            downloadLink: "/downloads/andor/season2/ep5.mp4",
           },
           {
             title: "Episode 6: Sacrifice",
-            downloadLink: "/downloads/neongenesis/season1/ep6.mp4",
+            downloadLink: "/downloads/andor/season2/ep6.mp4",
           },
           {
-            title: "Episode 7: Legacy",
-            downloadLink: "/downloads/neongenesis/season1/ep7.mp4",
+            title: "Episode 7: Final Stand",
+            downloadLink: "/downloads/andor/season2/ep7.mp4",
           },
           {
-            title: "Episode 8: Rebellion",
-            downloadLink: "/downloads/neongenesis/season1/ep8.mp4",
+            title: "Episode 8: Dawn of Defiance",
+            downloadLink: "/downloads/andor/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Succession",
+    slug: "succession",
+    category: "Drama Series",
+    image: SUCCESSION,
+    trailer: "https://www.youtube.com/embed/successiontrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Celebration",
+            downloadLink: "/downloads/succession/season1/ep1.mp4",
           },
           {
-            title: "Episode 9: Ascension",
-            downloadLink: "/downloads/neongenesis/season1/ep9.mp4",
+            title: "Episode 2: Sh*t Show at the F**k Factory",
+            downloadLink: "/downloads/succession/season1/ep2.mp4",
           },
           {
-            title: "Episode 10: Collapse",
-            downloadLink: "/downloads/neongenesis/season1/ep10.mp4",
+            title: "Episode 3: Lifeboats",
+            downloadLink: "/downloads/succession/season1/ep3.mp4",
           },
           {
-            title: "Episode 11: Genesis",
-            downloadLink: "/downloads/neongenesis/season1/ep11.mp4",
+            title: "Episode 4: Sad Sack Wasp Trap",
+            downloadLink: "/downloads/succession/season1/ep4.mp4",
           },
           {
-            title: "Episode 12: Finale",
-            downloadLink: "/downloads/neongenesis/season1/ep12.mp4",
+            title: "Episode 5: I Went to Market",
+            downloadLink: "/downloads/succession/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Which Side Are You On?",
+            downloadLink: "/downloads/succession/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Austerlitz",
+            downloadLink: "/downloads/succession/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Prague",
+            downloadLink: "/downloads/succession/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: Pre-Nuptial",
+            downloadLink: "/downloads/succession/season1/ep9.mp4",
+          },
+          {
+            title: "Episode 10: Nobody Is Ever Missing",
+            downloadLink: "/downloads/succession/season1/ep10.mp4",
           },
         ],
       },
@@ -298,212 +709,98 @@ const series = [
         season: 2,
         episodes: [
           {
-            title: "Episode 1: Rebirth",
-            downloadLink: "/downloads/neongenesis/season2/ep1.mp4",
+            title: "Episode 1: The Summer Palace",
+            downloadLink: "/downloads/succession/season2/ep1.mp4",
           },
           {
-            title: "Episode 2: Shadows",
-            downloadLink: "/downloads/neongenesis/season2/ep2.mp4",
+            title: "Episode 2: Vaulter",
+            downloadLink: "/downloads/succession/season2/ep2.mp4",
           },
           {
-            title: "Episode 3: Nexus",
-            downloadLink: "/downloads/neongenesis/season2/ep3.mp4",
+            title: "Episode 3: Hunting",
+            downloadLink: "/downloads/succession/season2/ep3.mp4",
           },
           {
-            title: "Episode 4: Eclipse",
-            downloadLink: "/downloads/neongenesis/season2/ep4.mp4",
+            title: "Episode 4: Safe Room",
+            downloadLink: "/downloads/succession/season2/ep4.mp4",
           },
           {
-            title: "Episode 5: Unity",
-            downloadLink: "/downloads/neongenesis/season2/ep5.mp4",
+            title: "Episode 5: Tern Haven",
+            downloadLink: "/downloads/succession/season2/ep5.mp4",
           },
           {
-            title: "Episode 6: Fracture",
-            downloadLink: "/downloads/neongenesis/season2/ep6.mp4",
+            title: "Episode 6: Argestes",
+            downloadLink: "/downloads/succession/season2/ep6.mp4",
           },
           {
-            title: "Episode 7: Dawn",
-            downloadLink: "/downloads/neongenesis/season2/ep7.mp4",
+            title: "Episode 7: Return",
+            downloadLink: "/downloads/succession/season2/ep7.mp4",
           },
           {
-            title: "Episode 8: Reckoning",
-            downloadLink: "/downloads/neongenesis/season2/ep8.mp4",
+            title: "Episode 8: Dundee",
+            downloadLink: "/downloads/succession/season2/ep8.mp4",
           },
           {
-            title: "Episode 9: Abyss",
-            downloadLink: "/downloads/neongenesis/season2/ep9.mp4",
+            title: "Episode 9: DC",
+            downloadLink: "/downloads/succession/season2/ep9.mp4",
           },
           {
-            title: "Episode 10: Salvation",
-            downloadLink: "/downloads/neongenesis/season2/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Eternity",
-            downloadLink: "/downloads/neongenesis/season2/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Closure",
-            downloadLink: "/downloads/neongenesis/season2/ep12.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Horizon",
-            downloadLink: "/downloads/neongenesis/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Vortex",
-            downloadLink: "/downloads/neongenesis/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Legacy",
-            downloadLink: "/downloads/neongenesis/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Rebellion",
-            downloadLink: "/downloads/neongenesis/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Nexus",
-            downloadLink: "/downloads/neongenesis/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Ascension",
-            downloadLink: "/downloads/neongenesis/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Collapse",
-            downloadLink: "/downloads/neongenesis/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Genesis",
-            downloadLink: "/downloads/neongenesis/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Eternity",
-            downloadLink: "/downloads/neongenesis/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Salvation",
-            downloadLink: "/downloads/neongenesis/season3/ep10.mp Gambit",
-            downloadLink: "/downloads/shadowprotocol/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Redemption",
-            downloadLink: "/downloads/shadowprotocol/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Collapse",
-            downloadLink: "/downloads/shadowprotocol/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Finale",
-            downloadLink: "/downloads/shadowprotocol/season2/ep8.mp4",
+            title: "Episode 10: This Is Not for Tears",
+            downloadLink: "/downloads/succession/season2/ep10.mp4",
           },
         ],
       },
     ],
   },
   {
-    title: "Lost in the Void",
-    slug: "lost-in-the-void",
+    title: "Yellowjackets",
+    slug: "yellowjackets",
     category: "Mystery Series",
-    image: "lostinvoid.jpg",
+    image: YELLOWJACKETS,
+    trailer: "https://www.youtube.com/embed/yellowjacketstrailer",
     seasons: [
       {
         season: 1,
         episodes: [
           {
-            title: "Episode 1: Disappearance",
-            downloadLink: "/downloads/lostinvoid/season1/ep1.mp4",
+            title: "Episode 1: Pilot",
+            downloadLink: "/downloads/yellowjackets/season1/ep1.mp4",
           },
           {
-            title: "Episode 2: Traces",
-            downloadLink: "/downloads/lostinvoid/season1/ep2.mp4",
+            title: "Episode 2: F Sharp",
+            downloadLink: "/downloads/yellowjackets/season1/ep2.mp4",
           },
           {
-            title: "Episode 3: Secrets",
-            downloadLink: "/downloads/lostinvoid/season1/ep3.mp4",
+            title: "Episode 3: The Dollhouse",
+            downloadLink: "/downloads/yellowjackets/season1/ep3.mp4",
           },
           {
-            title: "Episode 4: Abyss",
-            downloadLink: "/downloads/lostinvoid/season1/ep4.mp4",
+            title: "Episode 4: Bear Down",
+            downloadLink: "/downloads/yellowjackets/season1/ep4.mp4",
           },
           {
-            title: "Episode 5: Revelations",
-            downloadLink: "/downloads/lostinvoid/season1/ep5.mp4",
+            title: "Episode 5: Blood Hive",
+            downloadLink: "/downloads/yellowjackets/season1/ep5.mp4",
           },
           {
-            title: "Episode 6: Closure",
-            downloadLink: "/downloads/lostinvoid/season1/ep6.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Cyber Punk",
-    slug: "cyber-Punk",
-    category: "Sci-Fi Series",
-    image: CP,
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Emergence",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep1.mp4",
+            title: "Episode 6: Saints",
+            downloadLink: "/downloads/yellowjackets/season1/ep6.mp4",
           },
           {
-            title: "Episode 2: Fusion",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep2.mp4",
+            title: "Episode 7: No Compass",
+            downloadLink: "/downloads/yellowjackets/season1/ep7.mp4",
           },
           {
-            title: "Episode 3: Rebellion",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep3.mp4",
+            title: "Episode 8: Flight of the Bumblebee",
+            downloadLink: "/downloads/yellowjackets/season1/ep8.mp4",
           },
           {
-            title: "Episode 4: Nexus",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep4.mp4",
+            title: "Episode 9: Doomcoming",
+            downloadLink: "/downloads/yellowjackets/season1/ep9.mp4",
           },
           {
-            title: "Episode 5: Ascension",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Collapse",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Genesis",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Eternity",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Salvation",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Dawn",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Eclipse",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Nexus",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep12.mp4",
-          },
-          {
-            title: "Episode 13: Finale",
-            downloadLink: "/downloads/cyberneticdawn/season1/ep13.mp4",
+            title: "Episode 10: Sic Transit Gloria Mundi",
+            downloadLink: "/downloads/yellowjackets/season1/ep10.mp4",
           },
         ],
       },
@@ -511,166 +808,505 @@ const series = [
         season: 2,
         episodes: [
           {
-            title: "Episode 1: Resurgence",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep1.mp4",
+            title: "Episode 1: Friends, Romans, Countrymen",
+            downloadLink: "/downloads/yellowjackets/season2/ep1.mp4",
           },
           {
-            title: "Episode 2: Fracture",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep2.mp4",
+            title: "Episode 2: Edible Complex",
+            downloadLink: "/downloads/yellowjackets/season2/ep2.mp4",
           },
           {
-            title: "Episode 3: Unity",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep3.mp4",
+            title: "Episode 3: Digestif",
+            downloadLink: "/downloads/yellowjackets/season2/ep3.mp4",
           },
           {
-            title: "Episode 4: Eclipse",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep4.mp4",
+            title: "Episode 4: Old Wounds",
+            downloadLink: "/downloads/yellowjackets/season2/ep4.mp4",
           },
           {
-            title: "Episode 5: Nexus",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep5.mp4",
+            title: "Episode 5: Two Truths and a Lie",
+            downloadLink: "/downloads/yellowjackets/season2/ep5.mp4",
           },
           {
-            title: "Episode 6: Ascension",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep6.mp4",
+            title: "Episode 6: Qui",
+            downloadLink: "/downloads/yellowjackets/season2/ep6.mp4",
           },
           {
-            title: "Episode 7: Collapse",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep7.mp4",
+            title: "Episode 7: Burial",
+            downloadLink: "/downloads/yellowjackets/season2/ep7.mp4",
           },
           {
-            title: "Episode 8: Genesis",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep8.mp4",
+            title: "Episode 8: It Chooses",
+            downloadLink: "/downloads/yellowjackets/season2/ep8.mp4",
           },
           {
-            title: "Episode 9: Eternity",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Salvation",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Dawn",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Vortex",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep12.mp4",
-          },
-          {
-            title: "Episode 13: Finale",
-            downloadLink: "/downloads/cyberneticdawn/season2/ep13.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Horizon",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Vortex",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Legacy",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Rebellion",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Nexus",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Ascension",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Collapse",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Genesis",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Eternity",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Salvation",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Dawn",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Eclipse",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep12.mp4",
-          },
-          {
-            title: "Episode 13: Finale",
-            downloadLink: "/downloads/cyberneticdawn/season3/ep13.mp4",
+            title: "Episode 9: Storytelling",
+            downloadLink: "/downloads/yellowjackets/season2/ep9.mp4",
           },
         ],
       },
     ],
   },
   {
-    title: "Underworld Chronicles",
-    slug: "underworld-chronicles",
+    title: "Stranger Things",
+    slug: "stranger-things",
+    category: "Sci-Fi Series",
+    image: STRANGERTHINGS,
+    trailer: "https://www.youtube.com/embed/strangerthingstrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: The Vanishing of Will Byers",
+            downloadLink: "/downloads/strangerthings/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: The Weirdo on Maple Street",
+            downloadLink: "/downloads/strangerthings/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Holly, Jolly",
+            downloadLink: "/downloads/strangerthings/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: The Body",
+            downloadLink: "/downloads/strangerthings/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: The Flea and the Acrobat",
+            downloadLink: "/downloads/strangerthings/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Monster",
+            downloadLink: "/downloads/strangerthings/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Bathtub",
+            downloadLink: "/downloads/strangerthings/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: The Upside Down",
+            downloadLink: "/downloads/strangerthings/season1/ep8.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: MADMAX",
+            downloadLink: "/downloads/strangerthings/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Trick or Treat, Freak",
+            downloadLink: "/downloads/strangerthings/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: The Pollywog",
+            downloadLink: "/downloads/strangerthings/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Will the Wise",
+            downloadLink: "/downloads/strangerthings/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Dig Dug",
+            downloadLink: "/downloads/strangerthings/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Spy",
+            downloadLink: "/downloads/strangerthings/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Lost Sister",
+            downloadLink: "/downloads/strangerthings/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: The Mind Flayer",
+            downloadLink: "/downloads/strangerthings/season2/ep8.mp4",
+          },
+          {
+            title: "Episode 9: The Gate",
+            downloadLink: "/downloads/strangerthings/season2/ep9.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "The Last of Us",
+    slug: "the-last-of-us",
+    category: "Post-Apocalyptic Series",
+    image: THELASTOFUS,
+    trailer: "https://www.youtube.com/embed/thelastofus trailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: When You're Lost in the Darkness",
+            downloadLink: "/downloads/thelastofus/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Infected",
+            downloadLink: "/downloads/thelastofus/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Long, Long Time",
+            downloadLink: "/downloads/thelastofus/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Please Hold to My Hand",
+            downloadLink: "/downloads/thelastofus/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Endure and Survive",
+            downloadLink: "/downloads/thelastofus/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Kin",
+            downloadLink: "/downloads/thelastofus/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Left Behind",
+            downloadLink: "/downloads/thelastofus/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: When We Are in Need",
+            downloadLink: "/downloads/thelastofus/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: Look for the Light",
+            downloadLink: "/downloads/thelastofus/season1/ep9.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: New Horizons",
+            downloadLink: "/downloads/thelastofus/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Shadows of the Past",
+            downloadLink: "/downloads/thelastofus/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: The Cost of Survival",
+            downloadLink: "/downloads/thelastofus/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Fractured Bonds",
+            downloadLink: "/downloads/thelastofus/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Into the Abyss",
+            downloadLink: "/downloads/thelastofus/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: No Safe Place",
+            downloadLink: "/downloads/thelastofus/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Final Journey",
+            downloadLink: "/downloads/thelastofus/season2/ep7.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Wednesday",
+    slug: "wednesday",
+    category: "Mystery Series",
+    image: WEDNESDAY,
+    trailer: "https://www.youtube.com/embed/wednesdaytrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Wednesday's Child Is Full of Woe",
+            downloadLink: "/downloads/wednesday/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Woe Is the Loneliest Number",
+            downloadLink: "/downloads/wednesday/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Friend or Woe",
+            downloadLink: "/downloads/wednesday/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Woe What a Night",
+            downloadLink: "/downloads/wednesday/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: You Reap What You Woe",
+            downloadLink: "/downloads/wednesday/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Quid Pro Woe",
+            downloadLink: "/downloads/wednesday/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: If You Don't Woe Me by Now",
+            downloadLink: "/downloads/wednesday/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: A Murder of Woes",
+            downloadLink: "/downloads/wednesday/season1/ep8.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Darker Days",
+            downloadLink: "/downloads/wednesday/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Secrets of Nevermore",
+            downloadLink: "/downloads/wednesday/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: The Monster Within",
+            downloadLink: "/downloads/wednesday/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Midnight Mysteries",
+            downloadLink: "/downloads/wednesday/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Shadows of Truth",
+            downloadLink: "/downloads/wednesday/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Unraveled Secrets",
+            downloadLink: "/downloads/wednesday/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Final Clue",
+            downloadLink: "/downloads/wednesday/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: End of Woe",
+            downloadLink: "/downloads/wednesday/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "The Mandalorian",
+    slug: "the-mandalorian",
+    category: "Sci-Fi Series",
+    image: THEMANDALORIAN,
+    trailer: "https://www.youtube.com/embed/themandaloriantrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Chapter 1: The Mandalorian",
+            downloadLink: "/downloads/themandalorian/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Chapter 2: The Child",
+            downloadLink: "/downloads/themandalorian/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Chapter 3: The Sin",
+            downloadLink: "/downloads/themandalorian/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Chapter 4: Sanctuary",
+            downloadLink: "/downloads/themandalorian/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Chapter 5: The Gunslinger",
+            downloadLink: "/downloads/themandalorian/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Chapter 6: The Prisoner",
+            downloadLink: "/downloads/themandalorian/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Chapter 7: The Reckoning",
+            downloadLink: "/downloads/themandalorian/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Chapter 8: Redemption",
+            downloadLink: "/downloads/themandalorian/season1/ep8.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Chapter 9: The Marshal",
+            downloadLink: "/downloads/themandalorian/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Chapter 10: The Passenger",
+            downloadLink: "/downloads/themandalorian/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Chapter 11: The Heiress",
+            downloadLink: "/downloads/themandalorian/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Chapter 12: The Siege",
+            downloadLink: "/downloads/themandalorian/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Chapter 13: The Jedi",
+            downloadLink: "/downloads/themandalorian/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Chapter 14: The Tragedy",
+            downloadLink: "/downloads/themandalorian/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Chapter 15: The Believer",
+            downloadLink: "/downloads/themandalorian/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Chapter 16: The Rescue",
+            downloadLink: "/downloads/themandalorian/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Bridgerton",
+    slug: "bridgerton",
+    category: "Romance Series",
+    image: BRIDGERTON,
+    trailer: "https://www.youtube.com/embed/bridgertontrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Diamond of the First Water",
+            downloadLink: "/downloads/bridgerton/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Shock and Delight",
+            downloadLink: "/downloads/bridgerton/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Art of the Swoon",
+            downloadLink: "/downloads/bridgerton/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: An Affair of Honor",
+            downloadLink: "/downloads/bridgerton/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: The Duke and I",
+            downloadLink: "/downloads/bridgerton/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Swish",
+            downloadLink: "/downloads/bridgerton/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Oceans Apart",
+            downloadLink: "/downloads/bridgerton/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: After the Rain",
+            downloadLink: "/downloads/bridgerton/season1/ep8.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Capital R Rake",
+            downloadLink: "/downloads/bridgerton/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Off to the Races",
+            downloadLink: "/downloads/bridgerton/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: A Bee in Your Bonnet",
+            downloadLink: "/downloads/bridgerton/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Victory",
+            downloadLink: "/downloads/bridgerton/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: An Unthinkable Fate",
+            downloadLink: "/downloads/bridgerton/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Choice",
+            downloadLink: "/downloads/bridgerton/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Harmony",
+            downloadLink: "/downloads/bridgerton/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: The Viscount Who Loved Me",
+            downloadLink: "/downloads/bridgerton/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "The Witcher",
+    slug: "the-witcher",
     category: "Fantasy Series",
-    image: UC,
+    image: THEWITCHER,
+    trailer: "https://www.youtube.com/embed/thewitchertrailer",
     seasons: [
       {
         season: 1,
         episodes: [
           {
-            title: "Episode 1: The Awakening",
-            downloadLink: "/downloads/underworldchronicles/season1/ep1.mp4",
+            title: "Episode 1: The End's Beginning",
+            downloadLink: "/downloads/thewitcher/season1/ep1.mp4",
           },
           {
-            title: "Episode 2: Dark Prophecy",
-            downloadLink: "/downloads/underworldchronicles/season1/ep2.mp4",
+            title: "Episode 2: Four Marks",
+            downloadLink: "/downloads/thewitcher/season1/ep2.mp4",
           },
           {
-            title: "Episode 3: Shadow Realm",
-            downloadLink: "/downloads/underworldchronicles/season1/ep3.mp4",
+            title: "Episode 3: Betrayer Moon",
+            downloadLink: "/downloads/thewitcher/season1/ep3.mp4",
           },
           {
-            title: "Episode 4: Blood Oath",
-            downloadLink: "/downloads/underworldchronicles/season1/ep4.mp4",
+            title: "Episode 4: Of Banquets, Bastards and Burials",
+            downloadLink: "/downloads/thewitcher/season1/ep4.mp4",
           },
           {
-            title: "Episode 5: Forgotten Lore",
-            downloadLink: "/downloads/underworldchronicles/season1/ep5.mp4",
+            title: "Episode 5: Bottled Appetites",
+            downloadLink: "/downloads/thewitcher/season1/ep5.mp4",
           },
           {
-            title: "Episode 6: Betrayal",
-            downloadLink: "/downloads/underworldchronicles/season1/ep6.mp4",
+            title: "Episode 6: Rare Species",
+            downloadLink: "/downloads/thewitcher/season1/ep6.mp4",
           },
           {
-            title: "Episode 7: Rise of Darkness",
-            downloadLink: "/downloads/underworldchronicles/season1/ep7.mp4",
+            title: "Episode 7: Before a Fall",
+            downloadLink: "/downloads/thewitcher/season1/ep7.mp4",
           },
           {
-            title: "Episode 8: The Eclipse",
-            downloadLink: "/downloads/underworldchronicles/season1/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Eternal Flame",
-            downloadLink: "/downloads/underworldchronicles/season1/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Reckoning",
-            downloadLink: "/downloads/underworldchronicles/season1/ep10.mp4",
+            title: "Episode 8: Much More",
+            downloadLink: "/downloads/thewitcher/season1/ep8.mp4",
           },
         ],
       },
@@ -678,232 +1314,430 @@ const series = [
         season: 2,
         episodes: [
           {
-            title: "Episode 1: Shattered Crown",
-            downloadLink: "/downloads/underworldchronicles/season2/ep1.mp4",
+            title: "Episode 1: A Grain of Truth",
+            downloadLink: "/downloads/thewitcher/season2/ep1.mp4",
           },
           {
-            title: "Episode 2: Crimson Tide",
-            downloadLink: "/downloads/underworldchronicles/season2/ep2.mp4",
+            title: "Episode 2: Kaer Morhen",
+            downloadLink: "/downloads/thewitcher/season2/ep2.mp4",
           },
           {
-            title: "Episode 3: Ghost of Legends",
-            downloadLink: "/downloads/underworldchronicles/season2/ep3.mp4",
+            title: "Episode 3: What Is Lost",
+            downloadLink: "/downloads/thewitcher/season2/ep3.mp4",
           },
           {
-            title: "Episode 4: The Abyss Calls",
-            downloadLink: "/downloads/underworldchronicles/season2/ep4.mp4",
+            title: "Episode 4: Redanian Intelligence",
+            downloadLink: "/downloads/thewitcher/season2/ep4.mp4",
           },
           {
-            title: "Episode 5: Iron Throne",
-            downloadLink: "/downloads/underworldchronicles/season2/ep5.mp4",
+            title: "Episode 5: Turn Your Back",
+            downloadLink: "/downloads/thewitcher/season2/ep5.mp4",
           },
           {
-            title: "Episode 6: Fallen Heroes",
-            downloadLink: "/downloads/underworldchronicles/season2/ep6.mp4",
+            title: "Episode 6: Dear Friend...",
+            downloadLink: "/downloads/thewitcher/season2/ep6.mp4",
           },
           {
-            title: "Episode 7: Night's Embrace",
-            downloadLink: "/downloads/underworldchronicles/season2/ep7.mp4",
+            title: "Episode 7: Voleth Meir",
+            downloadLink: "/downloads/thewitcher/season2/ep7.mp4",
           },
           {
-            title: "Episode 8: Final Pact",
-            downloadLink: "/downloads/underworldchronicles/season2/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Dawn of Fate",
-            downloadLink: "/downloads/underworldchronicles/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Ascension",
-            downloadLink: "/downloads/underworldchronicles/season2/ep10.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Twilight Reign",
-            downloadLink: "/downloads/underworldchronicles/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Veil of Shadows",
-            downloadLink: "/downloads/underworldchronicles/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Last Kingdom",
-            downloadLink: "/downloads/underworldchronicles/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Eternal Night",
-            downloadLink: "/downloads/underworldchronicles/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Blood Legacy",
-            downloadLink: "/downloads/underworldchronicles/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Shattered Realm",
-            downloadLink: "/downloads/underworldchronicles/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Final Dawn",
-            downloadLink: "/downloads/underworldchronicles/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Eclipse of Gods",
-            downloadLink: "/downloads/underworldchronicles/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Redemption",
-            downloadLink: "/downloads/underworldchronicles/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Finale",
-            downloadLink: "/downloads/underworldchronicles/season3/ep10.mp4",
+            title: "Episode 8: Family",
+            downloadLink: "/downloads/thewitcher/season2/ep8.mp4",
           },
         ],
       },
     ],
   },
   {
-    title: "The Quantum Paradox",
-    slug: "the-quantum-paradox",
+    title: "Invincible",
+    slug: "invincible",
+    category: "Animated Series",
+    image: INVINCIBLE,
+    trailer: "https://www.youtube.com/embed/invincibletrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: It's About Time",
+            downloadLink: "/downloads/invincible/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Here Goes Nothing",
+            downloadLink: "/downloads/invincible/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Who You Calling Ugly?",
+            downloadLink: "/downloads/invincible/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Neil Armstrong, Eat Your Heart Out",
+            downloadLink: "/downloads/invincible/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: That Actually Hurt",
+            downloadLink: "/downloads/invincible/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: You Look Kinda Dead",
+            downloadLink: "/downloads/invincible/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: We Need to Talk",
+            downloadLink: "/downloads/invincible/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Where I Really Come From",
+            downloadLink: "/downloads/invincible/season1/ep8.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: A Lesson for Your Next Life",
+            downloadLink: "/downloads/invincible/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: In About Six Hours I Lose My Virginity",
+            downloadLink: "/downloads/invincible/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: This Missive, This Machination!",
+            downloadLink: "/downloads/invincible/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: It's Been a While",
+            downloadLink: "/downloads/invincible/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: This Must Come as a Shock",
+            downloadLink: "/downloads/invincible/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: I'm Not Going Anywhere",
+            downloadLink: "/downloads/invincible/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: I Thought You Were Stronger",
+            downloadLink: "/downloads/invincible/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: The End of All Things",
+            downloadLink: "/downloads/invincible/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Euphoria",
+    slug: "euphoria",
+    category: "Drama Series",
+    image: EUPHORIA,
+    trailer: "https://www.youtube.com/embed/euphoriatrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Pilot",
+            downloadLink: "/downloads/euphoria/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Stuntin' Like My Daddy",
+            downloadLink: "/downloads/euphoria/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Made You Look",
+            downloadLink: "/downloads/euphoria/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Shook Ones Pt. II",
+            downloadLink: "/downloads/euphoria/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: '03 Bonnie and Clyde",
+            downloadLink: "/downloads/euphoria/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Next Episode",
+            downloadLink: "/downloads/euphoria/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Trials and Tribulations of Trying",
+            downloadLink: "/downloads/euphoria/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: And Salt the Earth Behind You",
+            downloadLink: "/downloads/euphoria/season1/ep8.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Trying to Get to Heaven Before They Close the Door",
+            downloadLink: "/downloads/euphoria/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Out of Touch",
+            downloadLink: "/downloads/euphoria/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Ruminations: Big and Little Bullys",
+            downloadLink: "/downloads/euphoria/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: You Who Cannot See, Think of Those Who Can",
+            downloadLink: "/downloads/euphoria/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Stand Still Like the Hummingbird",
+            downloadLink: "/downloads/euphoria/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: A Thousand Little Trees of Blood",
+            downloadLink: "/downloads/euphoria/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Theater and Its Double",
+            downloadLink: "/downloads/euphoria/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: All My Life, My Heart Has Yearned",
+            downloadLink: "/downloads/euphoria/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Your Honor",
+    slug: "your-honor",
+    category: "Crime Series",
+    image: YOURHONOR,
+    trailer: "https://www.youtube.com/embed/yourhonortrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: Part One",
+            downloadLink: "/downloads/yourhonor/season1/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Part Two",
+            downloadLink: "/downloads/yourhonor/season1/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Part Three",
+            downloadLink: "/downloads/yourhonor/season1/ep3.mp4",
+          },
+          {
+            title: "Episode 4: Part Four",
+            downloadLink: "/downloads/yourhonor/season1/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Part Five",
+            downloadLink: "/downloads/yourhonor/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Part Six",
+            downloadLink: "/downloads/yourhonor/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: Part Seven",
+            downloadLink: "/downloads/yourhonor/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Part Eight",
+            downloadLink: "/downloads/yourhonor/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: Part Nine",
+            downloadLink: "/downloads/yourhonor/season1/ep9.mp4",
+          },
+          {
+            title: "Episode 10: Part Ten",
+            downloadLink: "/downloads/yourhonor/season1/ep10.mp4",
+          },
+        ],
+      },
+      {
+        season: 2,
+        episodes: [
+          {
+            title: "Episode 1: Back in the Game",
+            downloadLink: "/downloads/yourhonor/season2/ep1.mp4",
+          },
+          {
+            title: "Episode 2: Justice on Trial",
+            downloadLink: "/downloads/yourhonor/season2/ep2.mp4",
+          },
+          {
+            title: "Episode 3: Tangled Lies",
+            downloadLink: "/downloads/yourhonor/season2/ep3.mp4",
+          },
+          {
+            title: "Episode 4: The Price of Loyalty",
+            downloadLink: "/downloads/yourhonor/season2/ep4.mp4",
+          },
+          {
+            title: "Episode 5: Shadows of Guilt",
+            downloadLink: "/downloads/yourhonor/season2/ep5.mp4",
+          },
+          {
+            title: "Episode 6: Breaking Point",
+            downloadLink: "/downloads/yourhonor/season2/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Verdict",
+            downloadLink: "/downloads/yourhonor/season2/ep7.mp4",
+          },
+          {
+            title: "Episode 8: Final Judgment",
+            downloadLink: "/downloads/yourhonor/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Silo",
+    slug: "silo",
     category: "Sci-Fi Series",
-    image: "quantumparadox.jpg",
+    image: SILO,
+    trailer: "https://www.youtube.com/embed/silotrailer",
     seasons: [
       {
         season: 1,
         episodes: [
           {
-            title: "Episode 1: Rift Genesis",
-            downloadLink: "/downloads/quantumparadox/season1/ep1.mp4",
+            title: "Episode 1: Freedom Day",
+            downloadLink: "/downloads/silo/season1/ep1.mp4",
           },
           {
-            title: "Episode 2: Time Fracture",
-            downloadLink: "/downloads/quantumparadox/season1/ep2.mp4",
+            title: "Episode 2: Holston's Pick",
+            downloadLink: "/downloads/silo/season1/ep2.mp4",
           },
           {
-            title: "Episode 3: Parallel Shift",
-            downloadLink: "/downloads/quantumparadox/season1/ep3.mp4",
+            title: "Episode 3: Machines",
+            downloadLink: "/downloads/silo/season1/ep3.mp4",
           },
           {
-            title: "Episode 4: Entanglement",
-            downloadLink: "/downloads/quantumparadox/season1/ep4.mp4",
+            title: "Episode 4: Truth",
+            downloadLink: "/downloads/silo/season1/ep4.mp4",
           },
           {
-            title: "Episode 5: Singularity",
-            downloadLink: "/downloads/quantumparadox/season1/ep5.mp4",
+            title: "Episode 5: The Janitor's Boy",
+            downloadLink: "/downloads/silo/season1/ep5.mp4",
           },
           {
-            title: "Episode 6: Horizon Breach",
-            downloadLink: "/downloads/quantumparadox/season1/ep6.mp4",
+            title: "Episode 6: The Relic",
+            downloadLink: "/downloads/silo/season1/ep6.mp4",
           },
           {
-            title: "Episode 7: Causal Loop",
-            downloadLink: "/downloads/quantumparadox/season1/ep7.mp4",
+            title: "Episode 7: The Flamekeepers",
+            downloadLink: "/downloads/silo/season1/ep7.mp4",
           },
           {
-            title: "Episode 8: Infinity Collapse",
-            downloadLink: "/downloads/quantumparadox/season1/ep8.mp4",
+            title: "Episode 8: Hanna",
+            downloadLink: "/downloads/silo/season1/ep8.mp4",
+          },
+          {
+            title: "Episode 9: The Getaway",
+            downloadLink: "/downloads/silo/season1/ep9.mp4",
+          },
+          {
+            title: "Episode 10: Outside",
+            downloadLink: "/downloads/silo/season1/ep10.mp4",
           },
         ],
       },
       {
         season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Quantum Dawn",
-            downloadLink: "/downloads/quantumparadox/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Echoes of Time",
-            downloadLink: "/downloads/quantumparadox/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Dimension Fall",
-            downloadLink: "/downloads/quantumparadox/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Nexus Point",
-            downloadLink: "/downloads/quantumparadox/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Paradox Rising",
-            downloadLink: "/downloads/quantumparadox/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Temporal Void",
-            downloadLink: "/downloads/quantumparadox/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Reality Shift",
-            downloadLink: "/downloads/quantumparadox/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Final Convergence",
-            downloadLink: "/downloads/quantumparadox/season2/ep8.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Secrets of the Abyss",
-    slug: "secrets-of-the-abyss",
-    category: "Mystery Series",
-    image: "secretsoftheabyss.jpg",
-    seasons: [
-      {
-        season: 1,
         episodes: [
           {
             title: "Episode 1: The Descent",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep1.mp4",
+            downloadLink: "/downloads/silo/season2/ep1.mp4",
           },
           {
             title: "Episode 2: Hidden Truths",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep2.mp4",
+            downloadLink: "/downloads/silo/season2/ep2.mp4",
           },
           {
-            title: "Episode 3: Echoes Below",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep3.mp4",
+            title: "Episode 3: Beyond the Silo",
+            downloadLink: "/downloads/silo/season2/ep3.mp4",
           },
           {
-            title: "Episode 4: Dark Currents",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep4.mp4",
+            title: "Episode 4: The Rebellion Within",
+            downloadLink: "/downloads/silo/season2/ep4.mp4",
           },
           {
-            title: "Episode 5: Forgotten Depths",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep5.mp4",
+            title: "Episode 5: Surface Secrets",
+            downloadLink: "/downloads/silo/season2/ep5.mp4",
           },
           {
-            title: "Episode 6: Unveiled Secrets",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep6.mp4",
+            title: "Episode 6: The Last Hope",
+            downloadLink: "/downloads/silo/season2/ep6.mp4",
           },
           {
-            title: "Episode 7: Shadow's Edge",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep7.mp4",
+            title: "Episode 7: Unraveled Mysteries",
+            downloadLink: "/downloads/silo/season2/ep7.mp4",
           },
           {
-            title: "Episode 8: Abyss Awakening",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep8.mp4",
+            title: "Episode 8: The New World",
+            downloadLink: "/downloads/silo/season2/ep8.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Fallout",
+    slug: "fallout",
+    category: "Post-Apocalyptic Series",
+    image: FALLOUT,
+    trailer: "https://www.youtube.com/embed/fallouttrailer",
+    seasons: [
+      {
+        season: 1,
+        episodes: [
+          {
+            title: "Episode 1: The End",
+            downloadLink: "/downloads/fallout/season1/ep1.mp4",
           },
           {
-            title: "Episode 9: Final Dive",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep9.mp4",
+            title: "Episode 2: The Target",
+            downloadLink: "/downloads/fallout/season1/ep2.mp4",
           },
           {
-            title: "Episode 10: Revelations",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep10.mp4",
+            title: "Episode 3: The Head",
+            downloadLink: "/downloads/fallout/season1/ep3.mp4",
           },
           {
-            title: "Episode 11: The Unseen",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep11.mp4",
+            title: "Episode 4: The Ghouls",
+            downloadLink: "/downloads/fallout/season1/ep4.mp4",
           },
           {
-            title: "Episode 12: Closure",
-            downloadLink: "/downloads/secretsoftheabyss/season1/ep12.mp4",
+            title: "Episode 5: The Past",
+            downloadLink: "/downloads/fallout/season1/ep5.mp4",
+          },
+          {
+            title: "Episode 6: The Trap",
+            downloadLink: "/downloads/fallout/season1/ep6.mp4",
+          },
+          {
+            title: "Episode 7: The Radio",
+            downloadLink: "/downloads/fallout/season1/ep7.mp4",
+          },
+          {
+            title: "Episode 8: The Beginning",
+            downloadLink: "/downloads/fallout/season1/ep8.mp4",
           },
         ],
       },
@@ -911,1200 +1745,36 @@ const series = [
         season: 2,
         episodes: [
           {
-            title: "Episode 1: Return to the Deep",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep1.mp4",
+            title: "Episode 1: Wasteland Rising",
+            downloadLink: "/downloads/fallout/season2/ep1.mp4",
           },
           {
-            title: "Episode 2: Phantom Signals",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep2.mp4",
+            title: "Episode 2: Vault Hunters",
+            downloadLink: "/downloads/fallout/season2/ep2.mp4",
           },
           {
-            title: "Episode 3: Lost Relics",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep3.mp4",
+            title: "Episode 3: Brotherhood's Call",
+            downloadLink: "/downloads/fallout/season2/ep3.mp4",
           },
           {
-            title: "Episode 4: Silent Whispers",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep4.mp4",
+            title: "Episode 4: Radioactive Shadows",
+            downloadLink: "/downloads/fallout/season2/ep4.mp4",
           },
           {
-            title: "Episode 5: Beneath the Veil",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep5.mp4",
+            title: "Episode 5: The New Frontier",
+            downloadLink: "/downloads/fallout/season2/ep5.mp4",
           },
           {
-            title: "Episode 6: Shadow's Call",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep6.mp4",
+            title: "Episode 6: Legacy of the Vault",
+            downloadLink: "/downloads/fallout/season2/ep6.mp4",
           },
           {
-            title: "Episode 7: Forbidden Truth",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep7.mp4",
+            title: "Episode 7: The Final Stand",
+            downloadLink: "/downloads/fallout/season2/ep7.mp4",
           },
           {
-            title: "Episode 8: Final Depths",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Echoes of Fate",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Redemption",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep10.mp4",
-          },
-          {
-            title: "Episode 11: The Abyss Stirs",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Finale",
-            downloadLink: "/downloads/secretsoftheabyss/season2/ep12.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Into the Void",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Ghostly Tides",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Eternal Shadows",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Last Secrets",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Abyss Reborn",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Hidden Light",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Final Truth",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Depths of Fate",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Redemption's Call",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Unraveled",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep10.mp4",
-          },
-          {
-            title: "Episode 11: The Last Echo",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Finale",
-            downloadLink: "/downloads/secretsoftheabyss/season3/ep12.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Omega Protocol",
-    slug: "omega-protocol",
-    category: "Action Series",
-    image: OP,
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Activation",
-            downloadLink: "/downloads/omegaprotocol/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Strike Force",
-            downloadLink: "/downloads/omegaprotocol/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Code Red",
-            downloadLink: "/downloads/omegaprotocol/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Infiltration",
-            downloadLink: "/downloads/omegaprotocol/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Betrayal",
-            downloadLink: "/downloads/omegaprotocol/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Counterstrike",
-            downloadLink: "/downloads/omegaprotocol/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Reckoning",
-            downloadLink: "/downloads/omegaprotocol/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Endgame",
-            downloadLink: "/downloads/omegaprotocol/season1/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Fallout",
-            downloadLink: "/downloads/omegaprotocol/season1/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Redemption",
-            downloadLink: "/downloads/omegaprotocol/season1/ep10.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Resurgence",
-            downloadLink: "/downloads/omegaprotocol/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Shadow Ops",
-            downloadLink: "/downloads/omegaprotocol/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Zero Hour",
-            downloadLink: "/downloads/omegaprotocol/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Rogue Agent",
-            downloadLink: "/downloads/omegaprotocol/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Firestorm",
-            downloadLink: "/downloads/omegaprotocol/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Last Stand",
-            downloadLink: "/downloads/omegaprotocol/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Collapse",
-            downloadLink: "/downloads/omegaprotocol/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Final Mission",
-            downloadLink: "/downloads/omegaprotocol/season2/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Aftermath",
-            downloadLink: "/downloads/omegaprotocol/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Closure",
-            downloadLink: "/downloads/omegaprotocol/season2/ep10.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: New Dawn",
-            downloadLink: "/downloads/omegaprotocol/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Iron Grip",
-            downloadLink: "/downloads/omegaprotocol/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Phantom Strike",
-            downloadLink: "/downloads/omegaprotocol/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Rebellion",
-            downloadLink: "/downloads/omegaprotocol/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Apex Predator",
-            downloadLink: "/downloads/omegaprotocol/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Final Hour",
-            downloadLink: "/downloads/omegaprotocol/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Redemption",
-            downloadLink: "/downloads/omegaprotocol/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Last Protocol",
-            downloadLink: "/downloads/omegaprotocol/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: End of Line",
-            downloadLink: "/downloads/omegaprotocol/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Finale",
-            downloadLink: "/downloads/omegaprotocol/season3/ep10.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Beyond the Stars",
-    slug: "beyond-the-stars",
-    category: "Sci-Fi Series",
-    image: "beyondthestars.jpg",
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: First Contact",
-            downloadLink: "/downloads/beyondthestars/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Cosmic Drift",
-            downloadLink: "/downloads/beyondthestars/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Starfall",
-            downloadLink: "/downloads/beyondthestars/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Nebula's Edge",
-            downloadLink: "/downloads/beyondthestars/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Voidwalkers",
-            downloadLink: "/downloads/beyondthestars/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Galactic Dawn",
-            downloadLink: "/downloads/beyondthestars/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Eclipse",
-            downloadLink: "/downloads/beyondthestars/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Infinity's End",
-            downloadLink: "/downloads/beyondthestars/season1/ep8.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Stellar Rebirth",
-            downloadLink: "/downloads/beyondthestars/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Dark Matter",
-            downloadLink: "/downloads/beyondthestars/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Cosmic Rift",
-            downloadLink: "/downloads/beyondthestars/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Nova Rising",
-            downloadLink: "/downloads/beyondthestars/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Starborn",
-            downloadLink: "/downloads/beyondthestars/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Event Horizon",
-            downloadLink: "/downloads/beyondthestars/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Galactic Collapse",
-            downloadLink: "/downloads/beyondthestars/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Final Frontier",
-            downloadLink: "/downloads/beyondthestars/season2/ep8.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Steel Titans",
-    slug: "steel-titans",
-    category: "Action Series",
-    image: ST,
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Iron Dawn",
-            downloadLink: "/downloads/steeltitans/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Battle Forged",
-            downloadLink: "/downloads/steeltitans/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: War Machine",
-            downloadLink: "/downloads/steeltitans/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Steel Storm",
-            downloadLink: "/downloads/steeltitans/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Titan's Fury",
-            downloadLink: "/downloads/steeltitans/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Final Clash",
-            downloadLink: "/downloads/steeltitans/season1/ep6.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Neon Knights",
-    slug: "neon-knights",
-    category: "Cyberpunk Series",
-    image: NK,
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Neon Awakening",
-            downloadLink: "/downloads/neonknights/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Chrome Rebellion",
-            downloadLink: "/downloads/neonknights/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Circuit Break",
-            downloadLink: "/downloads/neonknights/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Shadow Hack",
-            downloadLink: "/downloads/neonknights/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Data Surge",
-            downloadLink: "/downloads/neonknights/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Cyberfall",
-            downloadLink: "/downloads/neonknights/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Neon Overdrive",
-            downloadLink: "/downloads/neonknights/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Digital Abyss",
-            downloadLink: "/downloads/neonknights/season1/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Code Redemption",
-            downloadLink: "/downloads/neonknights/season1/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Final Pulse",
-            downloadLink: "/downloads/neonknights/season1/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Synth Eternity",
-            downloadLink: "/downloads/neonknights/season1/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Neon Reckoning",
-            downloadLink: "/downloads/neonknights/season1/ep12.mp4",
-          },
-          {
-            title: "Episode 13: Eclipse",
-            downloadLink: "/downloads/neonknights/season1/ep13.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Grid Resurgence",
-            downloadLink: "/downloads/neonknights/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Phantom Code",
-            downloadLink: "/downloads/neonknights/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Night Circuit",
-            downloadLink: "/downloads/neonknights/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Chrome Nexus",
-            downloadLink: "/downloads/neonknights/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Data Collapse",
-            downloadLink: "/downloads/neonknights/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Synth Rebellion",
-            downloadLink: "/downloads/neonknights/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Neon Fracture",
-            downloadLink: "/downloads/neonknights/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Cyber Dawn",
-            downloadLink: "/downloads/neonknights/season2/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Final Hack",
-            downloadLink: "/downloads/neonknights/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Grid Salvation",
-            downloadLink: "/downloads/neonknights/season2/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Shadow Surge",
-            downloadLink: "/downloads/neonknights/season2/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Neon Closure",
-            downloadLink: "/downloads/neonknights/season2/ep12.mp4",
-          },
-          {
-            title: "Episode 13: Finale",
-            downloadLink: "/downloads/neonknights/season2/ep13.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Cyber Horizon",
-            downloadLink: "/downloads/neonknights/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Digital Vortex",
-            downloadLink: "/downloads/neonknights/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Neon Legacy",
-            downloadLink: "/downloads/neonknights/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Chrome Ascension",
-            downloadLink: "/downloads/neonknights/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Circuit Nexus",
-            downloadLink: "/downloads/neonknights/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Synth Collapse",
-            downloadLink: "/downloads/neonknights/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Data Genesis",
-            downloadLink: "/downloads/neonknights/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Neon Eternity",
-            downloadLink: "/downloads/neonknights/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Cyber Salvation",
-            downloadLink: "/downloads/neonknights/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Grid Dawn",
-            downloadLink: "/downloads/neonknights/season3/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Shadow Eclipse",
-            downloadLink: "/downloads/neonknights/season3/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Final Neon",
-            downloadLink: "/downloads/neonknights/season3/ep12.mp4",
-          },
-          {
-            title: "Episode 13: Finale",
-            downloadLink: "/downloads/neonknights/season3/ep13.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "The Outlanders",
-    slug: "the-outlanders",
-    category: "Fantasy Series",
-    image: TOL,
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Exile's Dawn",
-            downloadLink: "/downloads/theoutlanders/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Forbidden Lands",
-            downloadLink: "/downloads/theoutlanders/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Shadow Quest",
-            downloadLink: "/downloads/theoutlanders/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Blood Pact",
-            downloadLink: "/downloads/theoutlanders/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Ancient Prophecy",
-            downloadLink: "/downloads/theoutlanders/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Dark Rising",
-            downloadLink: "/downloads/theoutlanders/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Forgotten Kings",
-            downloadLink: "/downloads/theoutlanders/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Eternal Flame",
-            downloadLink: "/downloads/theoutlanders/season1/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Twilight Oath",
-            downloadLink: "/downloads/theoutlanders/season1/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Reckoning",
-            downloadLink: "/downloads/theoutlanders/season1/ep10.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Shattered Realms",
-            downloadLink: "/downloads/theoutlanders/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Crimson Veil",
-            downloadLink: "/downloads/theoutlanders/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Ghost of Legends",
-            downloadLink: "/downloads/theoutlanders/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Iron Crown",
-            downloadLink: "/downloads/theoutlanders/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Fallen Gods",
-            downloadLink: "/downloads/theoutlanders/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Night's Wrath",
-            downloadLink: "/downloads/theoutlanders/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Final Pact",
-            downloadLink: "/downloads/theoutlanders/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Dawn of Fate",
-            downloadLink: "/downloads/theoutlanders/season2/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Eternal Quest",
-            downloadLink: "/downloads/theoutlanders/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Ascension",
-            downloadLink: "/downloads/theoutlanders/season2/ep10.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Twilight Reign",
-            downloadLink: "/downloads/theoutlanders/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Shadow's End",
-            downloadLink: "/downloads/theoutlanders/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Last Kingdom",
-            downloadLink: "/downloads/theoutlanders/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Eternal Night",
-            downloadLink: "/downloads/theoutlanders/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Blood Legacy",
-            downloadLink: "/downloads/theoutlanders/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Shattered Realm",
-            downloadLink: "/downloads/theoutlanders/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Final Dawn",
-            downloadLink: "/downloads/theoutlanders/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Eclipse of Gods",
-            downloadLink: "/downloads/theoutlanders/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Redemption",
-            downloadLink: "/downloads/theoutlanders/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Finale",
-            downloadLink: "/downloads/theoutlanders/season3/ep10.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Rogue Division",
-    slug: "rogue-Division",
-    category: "Spy Thriller",
-    image: "roguedivision.jpg",
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Covert Entry",
-            downloadLink: "/downloads/roguedivision/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Double Agent",
-            downloadLink: "/downloads/roguedivision/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Shadow Game",
-            downloadLink: "/downloads/roguedivision/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Betrayal",
-            downloadLink: "/downloads/roguedivision/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Cipher Break",
-            downloadLink: "/downloads/roguedivision/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Extraction",
-            downloadLink: "/downloads/roguedivision/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Blackout",
-            downloadLink: "/downloads/roguedivision/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Endgame",
-            downloadLink: "/downloads/roguedivision/season1/ep8.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Phantom Protocol",
-            downloadLink: "/downloads/roguedivision/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Rogue Hunt",
-            downloadLink: "/downloads/roguedivision/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Dark Alliance",
-            downloadLink: "/downloads/roguedivision/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Code Zero",
-            downloadLink: "/downloads/roguedivision/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Ghost Signal",
-            downloadLink: "/downloads/roguedivision/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Final Gambit",
-            downloadLink: "/downloads/roguedivision/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Shadow Fall",
-            downloadLink: "/downloads/roguedivision/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Closure",
-            downloadLink: "/downloads/roguedivision/season2/ep8.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Blood Moon Rising",
-    slug: "blood-moon-rising",
-    category: "Horror Series",
-    image: "bloodmoonrising.jpg",
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Crimson Night",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Shadow's Curse",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Blood Ritual",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Dark Awakening",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Eternal Dread",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Moonlit Horror",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Night's Terror",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Final Scream",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Abyss of Fear",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Blood Eclipse",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Shadow's End",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Redemption",
-            downloadLink: "/downloads/bloodmoonrising/season1/ep12.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Return of the Moon",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Ghostly Whispers",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Crimson Pact",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Night's Embrace",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Eternal Curse",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Blood Shadows",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Final Ritual",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Dark Reckoning",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Moon's Wrath",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Salvation",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Night's End",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Finale",
-            downloadLink: "/downloads/bloodmoonrising/season2/ep12.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Eclipse Reborn",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Shadow's Return",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Blood Legacy",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Eternal Night",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Crimson Dawn",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Final Curse",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Moonlit End",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Dark Salvation",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Night's Reckoning",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Blood Redemption",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep10.mp4",
-          },
-          {
-            title: "Episode 11: Shadow Eclipse",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep11.mp4",
-          },
-          {
-            title: "Episode 12: Finale",
-            downloadLink: "/downloads/bloodmoonrising/season3/ep12.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Fallen Dynasty",
-    slug: "fallen-Dynasty",
-    category: "Historical Drama",
-    image: "fallendynasty.jpg",
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Rise of the Throne",
-            downloadLink: "/downloads/fallendynasty/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Betrayal of Blood",
-            downloadLink: "/downloads/fallendynasty/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Shadow of Power",
-            downloadLink: "/downloads/fallendynasty/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Iron Reign",
-            downloadLink: "/downloads/fallendynasty/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Fallen Crown",
-            downloadLink: "/downloads/fallendynasty/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Last Alliance",
-            downloadLink: "/downloads/fallendynasty/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Blood and Honor",
-            downloadLink: "/downloads/fallendynasty/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Final Decree",
-            downloadLink: "/downloads/fallendynasty/season1/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Legacy's End",
-            downloadLink: "/downloads/fallendynasty/season1/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Twilight of Kings",
-            downloadLink: "/downloads/fallendynasty/season1/ep10.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Shattered Empire",
-            downloadLink: "/downloads/fallendynasty/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Crimson Banner",
-            downloadLink: "/downloads/fallendynasty/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Ghost of Glory",
-            downloadLink: "/downloads/fallendynasty/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Iron Betrayal",
-            downloadLink: "/downloads/fallendynasty/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Last Heir",
-            downloadLink: "/downloads/fallendynasty/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Dawn of Rebellion",
-            downloadLink: "/downloads/fallendynasty/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Blood Oath",
-            downloadLink: "/downloads/fallendynasty/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Final Throne",
-            downloadLink: "/downloads/fallendynasty/season2/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Eternal Reign",
-            downloadLink: "/downloads/fallendynasty/season2/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Closure",
-            downloadLink: "/downloads/fallendynasty/season2/ep10.mp4",
-          },
-        ],
-      },
-      {
-        season: 3,
-        episodes: [
-          {
-            title: "Episode 1: Twilight of Power",
-            downloadLink: "/downloads/fallendynasty/season3/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Shadow's Legacy",
-            downloadLink: "/downloads/fallendynasty/season3/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Last Dynasty",
-            downloadLink: "/downloads/fallendynasty/season3/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Crimson Fall",
-            downloadLink: "/downloads/fallendynasty/season3/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Iron Redemption",
-            downloadLink: "/downloads/fallendynasty/season3/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Blood and Glory",
-            downloadLink: "/downloads/fallendynasty/season3/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Final Crown",
-            downloadLink: "/downloads/fallendynasty/season3/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Eternal Honor",
-            downloadLink: "/downloads/fallendynasty/season3/ep8.mp4",
-          },
-          {
-            title: "Episode 9: Legacy Reborn",
-            downloadLink: "/ downloads/fallendynasty/season3/ep9.mp4",
-          },
-          {
-            title: "Episode 10: Finale",
-            downloadLink: "/downloads/fallendynasty/season3/ep10.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Celestial War",
-    slug: "celestial-war",
-    category: "Sci-Fi Series",
-    image: "celestialwar.jpg",
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Starfall",
-            downloadLink: "/downloads/celestialwar/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Cosmic Rift",
-            downloadLink: "/downloads/celestialwar/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Nebula's Wrath",
-            downloadLink: "/downloads/celestialwar/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Galactic Dawn",
-            downloadLink: "/downloads/celestialwar/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Void Siege",
-            downloadLink: "/downloads/celestialwar/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Stellar Clash",
-            downloadLink: "/downloads/celestialwar/season1/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Eclipse of Gods",
-            downloadLink: "/downloads/celestialwar/season1/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Infinity's End",
-            downloadLink: "/downloads/celestialwar/season1/ep8.mp4",
-          },
-        ],
-      },
-      {
-        season: 2,
-        episodes: [
-          {
-            title: "Episode 1: Nova Rebirth",
-            downloadLink: "/downloads/celestialwar/season2/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Dark Horizon",
-            downloadLink: "/downloads/celestialwar/season2/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Starborn Fury",
-            downloadLink: "/downloads/celestialwar/season2/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Cosmic Collapse",
-            downloadLink: "/downloads/celestialwar/season2/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Nebula's End",
-            downloadLink: "/downloads/celestialwar/season2/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Galactic Salvation",
-            downloadLink: "/downloads/celestialwar/season2/ep6.mp4",
-          },
-          {
-            title: "Episode 7: Void Reckoning",
-            downloadLink: "/downloads/celestialwar/season2/ep7.mp4",
-          },
-          {
-            title: "Episode 8: Final Stars",
-            downloadLink: "/downloads/celestialwar/season2/ep8.mp4",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Phoenix Rising",
-    slug: "phoenix-rising",
-    category: "Fantasy Series",
-    image: "phoenixrising.jpg",
-    seasons: [
-      {
-        season: 1,
-        episodes: [
-          {
-            title: "Episode 1: Ashes of Dawn",
-            downloadLink: "/downloads/phoenixrising/season1/ep1.mp4",
-          },
-          {
-            title: "Episode 2: Flame's Call",
-            downloadLink: "/downloads/phoenixrising/season1/ep2.mp4",
-          },
-          {
-            title: "Episode 3: Shadow of Wings",
-            downloadLink: "/downloads/phoenixrising/season1/ep3.mp4",
-          },
-          {
-            title: "Episode 4: Eternal Ember",
-            downloadLink: "/downloads/phoenixrising/season1/ep4.mp4",
-          },
-          {
-            title: "Episode 5: Blood of Fire",
-            downloadLink: "/downloads/phoenixrising/season1/ep5.mp4",
-          },
-          {
-            title: "Episode 6: Final Rebirth",
-            downloadLink: "/downloads/phoenixrising/season1/ep6.mp4",
+            title: "Episode 8: Rebirth of the Wasteland",
+            downloadLink: "/downloads/fallout/season2/ep8.mp4",
           },
         ],
       },
